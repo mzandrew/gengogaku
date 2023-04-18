@@ -2,7 +2,7 @@
 
 # written 2023-04-14 by mza
 # based on https://github.com/kerrickstaley/genanki
-# last updated 2023-04-15 by mza
+# last updated 2023-04-17 by mza
 
 # "I'm-learning-Japanese-I-think-I'm-learning-Japanese-I-really-think-so"
 
@@ -17,7 +17,8 @@ anki_output_file = "日本語.apkg"
 latex_output_file = "日本語.tex"
 
 #order = "natural"
-order = "hiragana-alphabetical"
+#order = "hiragana-alphabetical"
+order = "lesson"
 
 FONT_SIZE = "14pt" # allowed values in extarticle are 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt and 20pt
 NUMBER_OF_LINES_PER_TABULAR = 30
@@ -26,19 +27,12 @@ NUMBER_OF_LINES_PER_TABULAR = 30
 
 import re
 
-latex_entries = []
-vocab_entries = []
-kanji_3way_entries = []
+entries = []
 
 def parse_csv_file():
-	global latex_entries
-	global vocab_entries
-	global kanji_3way_entries
-	global vocab_count
-	global kanji_3way_count
-	vocab_count = 0
-	kanji_3way_count = 0
+	global entries
 	line_number = 0
+	count = 0
 	with open("日本語.csv") as my_file:
 		for line in my_file:
 			line = line.rstrip('\n')
@@ -72,22 +66,41 @@ def parse_csv_file():
 				lesson = items[4]
 			if 5<len(items):
 				part_of_speech = items[5]
-			my_fields = [ hiragana, english ]
-			#print(str(my_fields))
-			vocab_entries.append(my_fields)
-			vocab_count += 1
-			if not ""==kanji:
-				my_fields = [ kanji, hiragana, english ]
-				#print(str(my_fields))
-				kanji_3way_entries.append(my_fields)
-				kanji_3way_count += 1
-			japanese = hiragana
-			if not ""==kanji:
-				japanese = kanji
-			if not ""==kanji_furigana and not "\\ruby{}{}"==kanji_furigana:
-				japanese = kanji_furigana
-			my_fields = [ hiragana, japanese, english, lesson, part_of_speech ]
-			latex_entries.append(my_fields)
+			entries.append([hiragana, english, kanji, kanji_furigana, lesson, part_of_speech])
+			count += 1
+	print("found " + str(count) + " total entries")
+
+def filter_lesson(lesson_strings):
+	global entries
+	temporary = []
+	for entry in entries:
+		for lesson_string in lesson_strings:
+			if lesson_string==entry[4]:
+				temporary.append(entry)
+	entries = temporary
+
+def sort_by(order):
+	global entries
+	if "hiragana-alphabetical"==order:
+		entries = sorted(entries)
+		for entry in entries:
+			print(str(entry[0]))
+	elif "lesson"==order:
+		entries = sorted(entries, key=lambda x: x[4])
+		for entry in entries:
+			print(str(entry[4]) + " " + str(entry[0]))
+	else:
+		for entry in entries:
+			print(str(entry[0]))
+
+anki_style = """
+.card {
+	font-size: 64px;
+	text-align: center;
+	color: yellow;
+	background-color: black;
+}
+"""
 
 def do_anki():
 	import genanki
@@ -102,7 +115,8 @@ def do_anki():
 		{ 'name': 'hiragana', 'qfmt': '{{hiragana}}', 'afmt': '{{FrontSide}}<hr id="answer">{{kanji}}   <hr>{{English}}' },
 		{ 'name': 'English',  'qfmt': '{{English}}',  'afmt': '{{FrontSide}}<hr id="answer">{{kanji}}   <hr>{{hiragana}}' }
 	]
-	kanji_3way_model = genanki.Model(293487, '3-way kanji', fields=kanji_3way_fields, templates=kanji_3way_templates)
+	kanji_3way_model = genanki.Model(293487, '3-way kanji', fields=kanji_3way_fields, templates=kanji_3way_templates, css=anki_style)
+	#print(str(kanji_3way_model))
 	vocab_deck = genanki.Deck(3563948, 'vocab')
 	vocab_fields = [
 		{'name': 'hiragana'},
@@ -113,11 +127,25 @@ def do_anki():
 		{ 'name': 'English',  'qfmt': '{{English}}',  'afmt': '{{FrontSide}}<hr id="answer">{{hiragana}}' }
 	]
 	vocab_model = genanki.Model(487293, 'vocab', fields=vocab_fields, templates=vocab_templates)
+	vocab_count = 0
+	kanji_3way_count = 0
+	vocab_entries = []
+	kanji_3way_entries = []
+	for hiragana, english, kanji, kanji_furigana, lesson, part_of_speech in entries:
+		my_fields = [ hiragana, english ]
+		#print(str(my_fields))
+		vocab_entries.append(my_fields)
+		vocab_count += 1
+		if not ""==kanji:
+			my_fields = [ kanji, hiragana, english ]
+			#print(str(my_fields))
+			kanji_3way_entries.append(my_fields)
+			kanji_3way_count += 1
 	for my_fields in vocab_entries:
-		my_note = genanki.Note(model=vocab_model, fields=my_fields)
+		my_note = genanki.Note(model=vocab_model, fields=my_fields[0:2])
 		vocab_deck.add_note(my_note)
 	for my_fields in kanji_3way_entries:
-		my_note = genanki.Note(model=kanji_3way_model, fields=my_fields)
+		my_note = genanki.Note(model=kanji_3way_model, fields=my_fields[0:3])
 		kanji_3way_deck.add_note(my_note)
 	decks = []
 	if kanji_3way_count:
@@ -163,11 +191,17 @@ def show_hiragana_alphabetical_order():
 	return "\nあかさたなはまやらわん\n"
 
 def do_latex():
-	global latex_entries
-	if "hiragana-alphabetical"==order:
-		latex_entries = sorted(latex_entries)
+	latex_entries = []
+	for hiragana, english, kanji, kanji_furigana, lesson, part_of_speech in entries:
+		japanese = hiragana
+		if not ""==kanji:
+			japanese = kanji
+		if not ""==kanji_furigana and not "\\ruby{}{}"==kanji_furigana:
+			japanese = kanji_furigana
+		my_fields = [ hiragana, japanese, english, lesson, part_of_speech ]
+		latex_entries.append(my_fields)
 	latex_count = len(latex_entries)
-	print("found " + str(latex_count) + " total entries")
+	print("found " + str(latex_count) + " latex entries")
 	line_count_so_far_for_this_tabular = 0
 	with open(latex_output_file, "w") as my_file:
 		my_file.write(latex_header)
@@ -176,7 +210,7 @@ def do_latex():
 		for entry in latex_entries:
 			line_count_so_far_for_this_tabular += 1
 			#print(entry)
-			print(str(entry[1]) + " " + str(entry[2]))
+			#print(str(entry[1]) + " " + str(entry[2]))
 			my_file.write("\ " + str(entry[1]) + "&\small{" + str(entry[2]) + "}\\\\\n")
 			if NUMBER_OF_LINES_PER_TABULAR<=line_count_so_far_for_this_tabular:
 				my_file.write(tabular_break())
@@ -185,6 +219,8 @@ def do_latex():
 		my_file.write(latex_footer)
 
 parse_csv_file()
+#filter_lesson(["lesson8.1", "lesson8.3"])
+sort_by(order)
 for mode in modes:
 	if "anki"==mode:
 		do_anki()

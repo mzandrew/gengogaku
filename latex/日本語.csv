@@ -5,58 +5,60 @@
 #くる、to come、来る、、
 #(お)ひる、lunch、、
 
-けさ、this morning、今朝、\ruby{今}{け}\ruby{朝}{さ}、lesson8、noun
-しつもん、question、質問、\ruby{質}{しつ}\ruby{問}{もん}、lesson8、noun
+けさ、this morning、今朝、\ruby{今}{け}\ruby{朝}{さ}、lesson8.1、noun
+しつもん、question、質問、\ruby{質}{しつ}\ruby{問}{もん}、lesson8.1、noun
 #オフイス、office、、、lesson8、noun
-せいせき、grades、成績、\ruby{成}{せい}\ruby{績}{せき}、lesson8、noun
-あたま、head、頭、\ruby{頭}{あたま}、lesson8、noun
-ねつ、fever、熱、\ruby{熱}{ねつ}、lesson8、noun
-かぜ、a cold、風邪、\ruby{風}{か}\ruby{邪}{ぜ}、lesson8、noun
-おなか、stomach/abdomen、、、lesson8、noun
-のど、throat、、、lesson8、noun
-びょうき、illness/sickness、病気、\ruby{病}{びょう}\ruby{気}{き}、lesson8、noun
-びょょういん、clinic/hospital、病院、\ruby{病}{びょう}\ruby{院}{いん}、lesson8、noun
-いしゃ、doctor、医者、\ruby{医}{い}\ruby{者}{しゃ}、lesson8、noun
-さらいしゅう、the week after next、、\ruby{再}{さ}\ruby{来}{らい}\ruby{週}{しゅう}、lesson8、noun
-つぎ、next、次、\ruby{次}{つぎ}、lesson8、noun
-ごご、afternoon、午後、\ruby{午}{ご}\ruby{後}{ご}、lesson8、noun
-きょうかしょ、textbook、教科書、\ruby{教}{きょう}\ruby{科}{か}\ruby{書}{しょ}、lesson8、noun
-でんき、lights/electricity、電気、\ruby{電}{でん}\ruby{気}{き}、lesson8、noun
-えんぴつ、pencil、鉛筆、\ruby{鉛}{えん}\ruby{筆}{ぴつ}、lesson8、noun
-けしごむ、eraser、消しゴム、\ruby{消}{け}しゴム、lesson8、noun
-おかね、money、お金、お\ruby{金}{かね}、lesson8、noun
-(お)さいふ、wallet/coin purse、、、lesson8、noun
-#ドア、door、、、lesson8、noun
-まど、window、、、lesson8、noun
-じこ、traffic accident、事故、\ruby{事}{じ}\ruby{故}{こ}、lesson8、noun
-じゅうたい、traffic jam/congestion、渋滞、\ruby{渋}{じゅう}\ruby{滞}{たい}、lesson8、noun
+せいせき、grades、成績、\ruby{成}{せい}\ruby{績}{せき}、lesson8.1、noun
+あたま、head、頭、\ruby{頭}{あたま}、lesson8.1、noun
+ねつ、fever、熱、\ruby{熱}{ねつ}、lesson8.1、noun
+かぜ、a cold、風邪、\ruby{風}{か}\ruby{邪}{ぜ}、lesson8.1、noun
+おなか、stomach/abdomen、、、lesson8.1、noun
+のど、throat、、、lesson8.1、noun
+びょうき、illness/sickness、病気、\ruby{病}{びょう}\ruby{気}{き}、lesson8.1、noun
+びょょういん、clinic/hospital、病院、\ruby{病}{びょう}\ruby{院}{いん}、lesson8.1、noun
+いしゃ、doctor、医者、\ruby{医}{い}\ruby{者}{しゃ}、lesson8.1、noun
+さらいしゅう、the week after next、、\ruby{再}{さ}\ruby{来}{らい}\ruby{週}{しゅう}、lesson8.1、noun
+つぎ、next、次、\ruby{次}{つぎ}、lesson8.1、noun
+ごご、afternoon、午後、\ruby{午}{ご}\ruby{後}{ご}、lesson8.1、noun
+きょうかしょ、textbook、教科書、\ruby{教}{きょう}\ruby{科}{か}\ruby{書}{しょ}、lesson8.3、noun
+でんき、lights/electricity、電気、\ruby{電}{でん}\ruby{気}{き}、lesson8.3、noun
+えんぴつ、pencil、鉛筆、\ruby{鉛}{えん}\ruby{筆}{ぴつ}、lesson8.3、noun
+けしごむ、eraser、消しゴム、\ruby{消}{け}しゴム、lesson8.3、noun
+おかね、money、お金、お\ruby{金}{かね}、lesson8.3、noun
+(お)さいふ、wallet/coin purse、、、lesson8.3、noun
+#ドア、door、、、lesson8.3、noun
+まど、window、、、lesson8.3、noun
+じこ、traffic accident、事故、\ruby{事}{じ}\ruby{故}{こ}、lesson8.4、noun
+じゅうたい、traffic jam/congestion、渋滞、\ruby{渋}{じゅう}\ruby{滞}{たい}、lesson8.4、noun
 
-よろしい、all right/good (polite)、、\ruby{}{}、lesson8、i-adjective
-いたい、hurts/painful/sore、、\ruby{}{}、lesson8、i-adjective
+よろしい、all right/good (polite)、、\ruby{}{}、lesson8.1、i-adjective
+いたい、hurts/painful/sore、、\ruby{}{}、lesson8.1、i-adjective
 
-たぶん、probably、、\ruby{多}{た}\ruby{分}{ぶん}、lesson8、adverb
-すこし、a little bit、少し、\ruby{少}{すこ}し、lesson8、adverb
-よく、often/frequently、、\ruby{}{}、lesson8、adverb
-はやく、early/quickly、早く、\ruby{早}{はや}く、lesson8、adverb
+たぶん、probably、、\ruby{多}{た}\ruby{分}{ぶん}、lesson8.1、adverb
+すこし、a little bit、少し、\ruby{少}{すこ}し、lesson8.3、adverb
+よく、often/frequently、、\ruby{}{}、lesson8.3、adverb
+はやく、early/quickly、早く、\ruby{早}{はや}く、lesson8.4、adverb
 
-わすれる、to forget、忘れる、\ruby{忘}{わす}れる、lesson8、verb-II
-だす、to hand in/turn in/submit、出す、\ruby{出}{だ}す、lesson8、verb-I
-うかがう、to visit a home/office (humble)、、\ruby{}{}、lesson8、verb-I
-うける、to take a test/go to an interview、、\ruby{}{}、lesson8、verb-II
-つける、to turn on the lights、、\ruby{}{}、lesson8、verb-II
-けす、to turn off the lights、消す、\ruby{消}{け}す、lesson8、verb-I
-かりる、to borrow、借りる、\ruby{借}{か}りる、lesson8、verb-II
-あける、to open something、開ける、\ruby{開}{あ}ける、lesson8、verb-II
-しめる、to close something、閉める、\ruby{閉}{し}める、lesson8、verb-II
-つけう、to use、使う、\ruby{使}{つか}う、lesson8、verb-I
-やすむ、to rest/miss class/miss work、休む、\ruby{休}{やす}む、lesson8、verb-I
-かかる、to take/require time、、\ruby{}{}、lesson8、verb-I
-しらせる、to notify/inform、知らせる、\ruby{知}{し}らせる、lesson8、verb-II
-こわれる、to break down、、\ruby{}{}、lesson8、verb-II
-ねぼうする、to oversleep、、\ruby{}{}、lesson8、verb-III
-おくれる、to be late、遅れる、\ruby{遅}{おく}れる、lesson8、verb-II
+わすれる、to forget、忘れる、\ruby{忘}{わす}れる、lesson8.1、verb-II
+だす、to hand in/turn in/submit、出す、\ruby{出}{だ}す、lesson8.1、verb-I
+うかがう、to visit a home/office (humble)、、\ruby{}{}、lesson8.1、verb-I
+うける、to take a test/go to an interview、、\ruby{}{}、lesson8.1、verb-II
+つける、to turn on the lights、、\ruby{}{}、lesson8.3、verb-II
+けす、to turn off the lights、消す、\ruby{消}{け}す、lesson8.3、verb-I
+かりる、to borrow、借りる、\ruby{借}{か}りる、lesson8.3、verb-II
+あける、to open something、開ける、\ruby{開}{あ}ける、lesson8.3、verb-II
+しめる、to close something、閉める、\ruby{閉}{し}める、lesson8.3、verb-II
+つけう、to use、使う、\ruby{使}{つか}う、lesson8.3、verb-I
+やすむ、to rest/miss class/miss work、休む、\ruby{休}{やす}む、lesson8.4、verb-I
+かかる、to take/require time、、\ruby{}{}、lesson8.4、verb-I
+しらせる、to notify/inform、知らせる、\ruby{知}{し}らせる、lesson8.4、verb-II
+こわれる、to break down、、\ruby{}{}、lesson8.4、verb-II
+ねぼうする、to oversleep、、\ruby{}{}、lesson8.4、verb-III
+おくれる、to be late、遅れる、\ruby{遅}{おく}れる、lesson8.4、verb-II
 
-あとで、later on、後で、\ruby{後}{あと}で、lesson8、expression
-びょういんにいく、to go to a clinic/hospital、病院に行く、\ruby{病}{びょう}\ruby{院}{いん}に\ruby{行}{い}く、lesson8、expression
-いしゃにいく、to go to the doctor、医者に行く、\ruby{医}{い}\ruby{者}{しゃ}に\ruby{行}{い}く、lesson8、expression
+あとで、later on、後で、\ruby{後}{あと}で、lesson8.1、expression
+びょういんにいく、to go to a clinic/hospital、病院に行く、\ruby{病}{びょう}\ruby{院}{いん}に\ruby{行}{い}く、lesson8.1、expression
+いしゃにいく、to go to the doctor、医者に行く、\ruby{医}{い}\ruby{者}{しゃ}に\ruby{行}{い}く、lesson8.1、expression
+ぐあいがわるい、not feeling well、具合が悪い、\ruby{}{}、lesson8.1
+おだいじに、take care/get well、お大事に、お\ruby{大}{だい}\ruby{事}{じ}に、lesson8.1, expression
 
