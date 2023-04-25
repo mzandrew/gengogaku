@@ -144,7 +144,7 @@ def do_anki():
 		{ 'name': 'hiragana', 'qfmt': '{{hiragana}}', 'afmt': '{{FrontSide}}<hr id="answer">{{English}}' },
 		{ 'name': 'English',  'qfmt': '{{English}}',  'afmt': '{{FrontSide}}<hr id="answer">{{hiragana}}' }
 	]
-	vocab_model = genanki.Model(487293, 'vocab', fields=vocab_fields, templates=vocab_cards)
+	vocab_model = genanki.Model(487293, 'vocab', fields=vocab_fields, templates=vocab_cards, css=anki_style)
 	vocab_count = 0
 	vocab_entries = []
 	for hiragana, english, kanji, kanji_furigana, lesson, part_of_speech in entries:
