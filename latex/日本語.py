@@ -96,7 +96,7 @@ def sort_by(order):
 
 anki_style = """
 .card {
-	font-size: 64px;
+	font-size: 48px;
 	text-align: center;
 	color: yellow;
 	background-color: black;
