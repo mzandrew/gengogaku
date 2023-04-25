@@ -2,7 +2,7 @@
 
 # written 2023-04-14 by mza
 # based on https://github.com/kerrickstaley/genanki
-# last updated 2023-04-17 by mza
+# last updated 2023-04-25 by mza
 
 # "I'm-learning-Japanese-I-think-I'm-learning-Japanese-I-really-think-so"
 
@@ -17,11 +17,11 @@ anki_output_file = "日本語.apkg"
 latex_output_file = "日本語.tex"
 
 #order = "natural"
-#order = "hiragana-alphabetical"
-order = "lesson"
+order = "hiragana-alphabetical"
+#order = "lesson"
 
-FONT_SIZE = "14pt" # allowed values in extarticle are 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt and 20pt
-NUMBER_OF_LINES_PER_TABULAR = 30
+FONT_SIZE = "12pt" # allowed values in extarticle are 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt and 20pt
+NUMBER_OF_LINES_PER_TABULAR = 36
 
 # -----------------------------------
 
@@ -75,7 +75,8 @@ def filter_lesson(lesson_strings):
 	temporary = []
 	for entry in entries:
 		for lesson_string in lesson_strings:
-			if lesson_string==entry[4]:
+			match = re.search(lesson_string, entry[4])
+			if match:
 				temporary.append(entry)
 	entries = temporary
 
@@ -104,19 +105,19 @@ anki_style = """
 
 def do_anki():
 	import genanki
-	kanji_3way_deck = genanki.Deck(2342356, 'Kanji 3-way')
-	kanji_3way_fields = [
+	vocab_3way_deck = genanki.Deck(2342356, 'vocab 3-way')
+	vocab_3way_fields = [
 		{'name': 'kanji'},
 		{'name': 'hiragana'},
 		{'name': 'English'}
 	]
-	kanji_3way_templates = [
+	vocab_3way_templates = [
 		{ 'name': 'kanji',    'qfmt': '{{kanji}}',    'afmt': '{{FrontSide}}<hr id="answer">{{hiragana}}<hr>{{English}}' },
 		{ 'name': 'hiragana', 'qfmt': '{{hiragana}}', 'afmt': '{{FrontSide}}<hr id="answer">{{kanji}}   <hr>{{English}}' },
 		{ 'name': 'English',  'qfmt': '{{English}}',  'afmt': '{{FrontSide}}<hr id="answer">{{kanji}}   <hr>{{hiragana}}' }
 	]
-	kanji_3way_model = genanki.Model(293487, '3-way kanji', fields=kanji_3way_fields, templates=kanji_3way_templates, css=anki_style)
-	#print(str(kanji_3way_model))
+	vocab_3way_model = genanki.Model(293487, '3-way kanji', fields=vocab_3way_fields, templates=vocab_3way_templates, css=anki_style)
+	#print(str(vocab_3way_model))
 	vocab_deck = genanki.Deck(3563948, 'vocab')
 	vocab_fields = [
 		{'name': 'hiragana'},
@@ -128,29 +129,31 @@ def do_anki():
 	]
 	vocab_model = genanki.Model(487293, 'vocab', fields=vocab_fields, templates=vocab_templates)
 	vocab_count = 0
-	kanji_3way_count = 0
+	vocab_3way_count = 0
 	vocab_entries = []
-	kanji_3way_entries = []
+	vocab_3way_entries = []
 	for hiragana, english, kanji, kanji_furigana, lesson, part_of_speech in entries:
 		my_fields = [ hiragana, english ]
 		#print(str(my_fields))
-		vocab_entries.append(my_fields)
-		vocab_count += 1
+		if not "kanji-base"==part_of_speech:
+			vocab_entries.append(my_fields)
+			vocab_count += 1
 		if not ""==kanji:
 			my_fields = [ kanji, hiragana, english ]
 			#print(str(my_fields))
-			kanji_3way_entries.append(my_fields)
-			kanji_3way_count += 1
+			if not "kanji-base"==part_of_speech:
+				vocab_3way_entries.append(my_fields)
+				vocab_3way_count += 1
 	for my_fields in vocab_entries:
 		my_note = genanki.Note(model=vocab_model, fields=my_fields[0:2])
 		vocab_deck.add_note(my_note)
-	for my_fields in kanji_3way_entries:
-		my_note = genanki.Note(model=kanji_3way_model, fields=my_fields[0:3])
-		kanji_3way_deck.add_note(my_note)
+	for my_fields in vocab_3way_entries:
+		my_note = genanki.Note(model=vocab_3way_model, fields=my_fields[0:3])
+		vocab_3way_deck.add_note(my_note)
 	decks = []
-	if kanji_3way_count:
-		print("found " + str(kanji_3way_count) + " kanji")
-		decks.append(kanji_3way_deck)
+	if vocab_3way_count:
+		print("found " + str(vocab_3way_count) + " 3-way vocab")
+		decks.append(vocab_3way_deck)
 	if vocab_count:
 		print("found " + str(vocab_count) + " total vocab")
 		decks.append(vocab_deck)
@@ -199,7 +202,8 @@ def do_latex():
 		if not ""==kanji_furigana and not "\\ruby{}{}"==kanji_furigana:
 			japanese = kanji_furigana
 		my_fields = [ hiragana, japanese, english, lesson, part_of_speech ]
-		latex_entries.append(my_fields)
+		if not "kanji-base"==part_of_speech:
+			latex_entries.append(my_fields)
 	latex_count = len(latex_entries)
 	print("found " + str(latex_count) + " latex entries")
 	line_count_so_far_for_this_tabular = 0
@@ -220,6 +224,7 @@ def do_latex():
 
 parse_csv_file()
 #filter_lesson(["lesson8.1", "lesson8.3"])
+filter_lesson(["lesson8"])
 sort_by(order)
 for mode in modes:
 	if "anki"==mode:
