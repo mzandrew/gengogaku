@@ -111,27 +111,42 @@ def do_anki():
 		{'name': 'hiragana'},
 		{'name': 'English'}
 	]
-	vocab_3way_templates = [
+	vocab_3way_cards = [
 		{ 'name': 'kanji',    'qfmt': '{{kanji}}',    'afmt': '{{FrontSide}}<hr id="answer">{{hiragana}}<hr>{{English}}' },
 		{ 'name': 'hiragana', 'qfmt': '{{hiragana}}', 'afmt': '{{FrontSide}}<hr id="answer">{{kanji}}   <hr>{{English}}' },
 		{ 'name': 'English',  'qfmt': '{{English}}',  'afmt': '{{FrontSide}}<hr id="answer">{{kanji}}   <hr>{{hiragana}}' }
 	]
-	vocab_3way_model = genanki.Model(293487, '3-way kanji', fields=vocab_3way_fields, templates=vocab_3way_templates, css=anki_style)
+	vocab_3way_model = genanki.Model(293487, '3-way vocab', fields=vocab_3way_fields, templates=vocab_3way_cards, css=anki_style)
+	vocab_3way_count = 0
+	vocab_3way_entries = []
 	#print(str(vocab_3way_model))
+	kanji_base_deck = genanki.Deck(6463537, 'kanji base')
+	kanji_base_fields = [
+		{'name': 'kanji'},
+		{'name': 'hiragana'},
+		{'name': 'English'}
+	]
+	kanji_base_cards = [
+		{ 'name': 'kanji',    'qfmt': '{{kanji}}',    'afmt': '{{FrontSide}}<hr id="answer">{{hiragana}}<hr>{{English}}' },
+		#{ 'name': 'hiragana', 'qfmt': '{{hiragana}}', 'afmt': '{{FrontSide}}<hr id="answer">{{kanji}}   <hr>{{English}}' },
+		{ 'name': 'English',  'qfmt': '{{English}}',  'afmt': '{{FrontSide}}<hr id="answer">{{kanji}}   <hr>{{hiragana}}' }
+	]
+	kanji_base_model = genanki.Model(92929237, 'kanji base', fields=kanji_base_fields, templates=kanji_base_cards, css=anki_style)
+	kanji_base_count = 0
+	kanji_base_entries = []
+	#print(str(kanji_base_model))
 	vocab_deck = genanki.Deck(3563948, 'vocab')
 	vocab_fields = [
 		{'name': 'hiragana'},
 		{'name': 'English'}
 	]
-	vocab_templates = [
+	vocab_cards = [
 		{ 'name': 'hiragana', 'qfmt': '{{hiragana}}', 'afmt': '{{FrontSide}}<hr id="answer">{{English}}' },
 		{ 'name': 'English',  'qfmt': '{{English}}',  'afmt': '{{FrontSide}}<hr id="answer">{{hiragana}}' }
 	]
-	vocab_model = genanki.Model(487293, 'vocab', fields=vocab_fields, templates=vocab_templates)
+	vocab_model = genanki.Model(487293, 'vocab', fields=vocab_fields, templates=vocab_cards)
 	vocab_count = 0
-	vocab_3way_count = 0
 	vocab_entries = []
-	vocab_3way_entries = []
 	for hiragana, english, kanji, kanji_furigana, lesson, part_of_speech in entries:
 		my_fields = [ hiragana, english ]
 		#print(str(my_fields))
@@ -141,7 +156,10 @@ def do_anki():
 		if not ""==kanji:
 			my_fields = [ kanji, hiragana, english ]
 			#print(str(my_fields))
-			if not "kanji-base"==part_of_speech:
+			if "kanji-base"==part_of_speech:
+				kanji_base_entries.append(my_fields)
+				kanji_base_count += 1
+			else:
 				vocab_3way_entries.append(my_fields)
 				vocab_3way_count += 1
 	for my_fields in vocab_entries:
@@ -150,10 +168,16 @@ def do_anki():
 	for my_fields in vocab_3way_entries:
 		my_note = genanki.Note(model=vocab_3way_model, fields=my_fields[0:3])
 		vocab_3way_deck.add_note(my_note)
+	for my_fields in kanji_base_entries:
+		my_note = genanki.Note(model=kanji_base_model, fields=my_fields[0:3])
+		kanji_base_deck.add_note(my_note)
 	decks = []
 	if vocab_3way_count:
 		print("found " + str(vocab_3way_count) + " 3-way vocab")
 		decks.append(vocab_3way_deck)
+	if kanji_base_count:
+		print("found " + str(kanji_base_count) + " 3-way kanji")
+		decks.append(kanji_base_deck)
 	if vocab_count:
 		print("found " + str(vocab_count) + " total vocab")
 		decks.append(vocab_deck)
