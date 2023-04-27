@@ -21,7 +21,7 @@ order = "hiragana-alphabetical"
 #order = "lesson"
 
 FONT_SIZE = "12pt" # allowed values in extarticle are 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt and 20pt
-NUMBER_OF_LINES_PER_TABULAR = 36
+NUMBER_OF_LINES_PER_TABULAR = 46
 
 # -----------------------------------
 
@@ -266,13 +266,16 @@ def do_latex():
 def summary():
 	if len(duplicate_entries):
 		print("duplicate entries:")
-	for entry in duplicate_entries:
-		print(str(entry))
+		for entry in duplicate_entries:
+			print(str(entry))
+	else:
+		print("no duplicate entries!")
 
 parse_csv_file()
 deduplicate()
 #filter_lesson(["lesson8.1", "lesson8.3"])
-filter_lesson(["lesson8"])
+#filter_lesson(["lesson8"])
+#filter_lesson(["lesson6"])
 sort_by(order)
 for mode in modes:
 	if "anki"==mode:
