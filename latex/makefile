@@ -1,4 +1,12 @@
-default:
+list = jpn101-jpn102-kanji.tex jpn102-grammar-notes.tex jpn102-verbs-table.tex
+
+%.pdf : %.tex
+	pdflatex $<
+
+%.tex : %.csv
 	./日本語.py
-	pdflatex 日本語.tex
+
+default:
+	$(MAKE) $(patsubst %.tex,%.pdf,$(list))
+	$(MAKE) 日本語.pdf
 
