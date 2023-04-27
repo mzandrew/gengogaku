@@ -28,6 +28,7 @@ NUMBER_OF_LINES_PER_TABULAR = 36
 import re
 
 entries = []
+duplicate_entries = []
 
 def parse_csv_file():
 	global entries
@@ -93,6 +94,22 @@ def sort_by(order):
 	else:
 		for entry in entries:
 			print(str(entry[0]))
+
+def deduplicate():
+	global entries
+	global duplicate_entries
+	new_entries = []
+	hiragana = []
+	for entry in entries:
+		if entry[0] not in hiragana:
+			hiragana.append(entry[0])
+			new_entries.append(entry)
+		else:
+			print("duplicate!: " + str(entry[0]))
+			duplicate_entries.append(entry)
+	#uniq = set(entries)
+	#entries = list(uniq)
+	entries = new_entries
 
 anki_style = """
 .card {
@@ -246,7 +263,14 @@ def do_latex():
 		my_file.write(latex_end_tabular())
 		my_file.write(latex_footer)
 
+def summary():
+	if len(duplicate_entries):
+		print("duplicate entries:")
+	for entry in duplicate_entries:
+		print(str(entry))
+
 parse_csv_file()
+deduplicate()
 #filter_lesson(["lesson8.1", "lesson8.3"])
 filter_lesson(["lesson8"])
 sort_by(order)
@@ -255,4 +279,5 @@ for mode in modes:
 		do_anki()
 	if "latex"==mode:
 		do_latex()
+summary()
 

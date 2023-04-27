@@ -6,7 +6,7 @@
 #(お)ひる、lunch、、
 
 けさ、this morning、今朝、\ruby{今}{け}\ruby{朝}{さ}、lesson8.1、noun
-しつもん、question、質問、\ruby{質}{しつ}\ruby{問}{もん}、lesson8.1、noun
+しつもん、question、質問、\ruby{質}{しつ}\ruby{問}{もん}、lesson8.1、noun/kanji-compound
 #オフイス、office、、、lesson8、noun
 せいせき、grades、成績、\ruby{成}{せい}\ruby{績}{せき}、lesson8.1、noun
 あたま、head、頭、\ruby{頭}{あたま}、lesson8.1、noun
@@ -14,14 +14,14 @@
 かぜ、a cold、風邪、\ruby{風}{か}\ruby{邪}{ぜ}、lesson8.1、noun
 おなか、stomach / abdomen、、、lesson8.1、noun
 のど、throat、、、lesson8.1、noun
-びょうき、illness / sickness、病気、\ruby{病}{びょう}\ruby{気}{き}、lesson8.1、noun
-びょょういん、clinic / hospital、病院、\ruby{病}{びょう}\ruby{院}{いん}、lesson8.1、noun
+びょうき、illness / sickness、病気、\ruby{病}{びょう}\ruby{気}{き}、lesson8.1、noun/kanji-compound
+びょういん、clinic / hospital、病院、\ruby{病}{びょう}\ruby{院}{いん}、lesson8.1、noun
 いしゃ、doctor、医者、\ruby{医}{い}\ruby{者}{しゃ}、lesson8.1、noun
 さらいしゅう、the week after next、、\ruby{再}{さ}\ruby{来}{らい}\ruby{週}{しゅう}、lesson8.1、noun
 つぎ、next、次、\ruby{次}{つぎ}、lesson8.1、noun
 ごご、afternoon、午後、\ruby{午}{ご}\ruby{後}{ご}、lesson8.1、noun
 きょうかしょ、textbook、教科書、\ruby{教}{きょう}\ruby{科}{か}\ruby{書}{しょ}、lesson8.3、noun
-でんき、lights / electricity、電気、\ruby{電}{でん}\ruby{気}{き}、lesson8.3、noun
+でんき、lights / electricity、電気、\ruby{電}{でん}\ruby{気}{き}、lesson8.3、noun/kanji-compound
 えんぴつ、pencil、鉛筆、\ruby{鉛}{えん}\ruby{筆}{ぴつ}、lesson8.3、noun
 けしごむ、eraser、消しゴム、\ruby{消}{け}しゴム、lesson8.3、noun
 おかね、money、お金、お\ruby{金}{かね}、lesson8.3、noun
@@ -39,16 +39,16 @@
 よく、often / frequently、、\ruby{}{}、lesson8.3、adverb
 はやく、early / quickly、早く、\ruby{早}{はや}く、lesson8.4、adverb
 
-わすれる、to forget、忘れる、\ruby{忘}{わす}れる、lesson8.1、verb-II
+わすれる、to forget、忘れる、\ruby{忘}{わす}れる、lesson8.1、verb-II/kanji-compound
 だす、to hand in / turn in / submit、出す、\ruby{出}{だ}す、lesson8.1、verb-I
 うかがう、to visit a home / office (humble)、、\ruby{}{}、lesson8.1、verb-I
 うける、to take a test / go to an interview、、\ruby{}{}、lesson8.1、verb-II
 つける、to turn on the lights、、\ruby{}{}、lesson8.3、verb-II
 けす、to turn off the lights、消す、\ruby{消}{け}す、lesson8.3、verb-I
-かりる、to borrow、借りる、\ruby{借}{か}りる、lesson8.3、verb-II
+かりる、to borrow / to rent、借りる、\ruby{借}{か}りる、lesson8.3、verb-II/kanji-compound
 あける、to open something、開ける、\ruby{開}{あ}ける、lesson8.3、verb-II
 しめる、to close something、閉める、\ruby{閉}{し}める、lesson8.3、verb-II
-つけう、to use、使う、\ruby{使}{つか}う、lesson8.3、verb-I
+つかう、to use、使う、\ruby{使}{つか}う、lesson8.3、verb-I/kanji-compound
 やすむ、to rest / miss class / miss work、休む、\ruby{休}{やす}む、lesson8.4、verb-I
 かかる、to take / require time、、\ruby{}{}、lesson8.4、verb-I
 しらせる、to notify / inform、知らせる、\ruby{知}{し}らせる、lesson8.4、verb-II
@@ -67,7 +67,6 @@
 げん、beginning / origin、元、\ruby{元}{げん}、lesson8、kanji-base
 き、spirit / mind / air / atmosphere、気、\ruby{気}{き}、lesson8、kanji-base
 げんき、healthy / energetic、元気、\ruby{元}{げん}\ruby{気}{き}、lesson8、kanji-compound
-でんき、electricity / electric lights、電気、\ruby{電}{でん}\ruby{気}{き}、lesson8、kanji-compound
 はや、early / quick、早、\ruby{早}{はや}、lesson8、kanji-base
 はやい、early / quick、早い、\ruby{早}{はや}い、lesson8、kanji-compound
 で、go out / come out / leave、出、\ruby{出}{で}、lesson8、kanji-base
@@ -75,9 +74,7 @@
 かえ、return home / go home / come home、帰、\ruby{帰}{かえ}、lesson8、kanji-base
 かえる、to return home、帰る、\ruby{帰}{かえ}る、lesson8、kanji-compound
 つか、use、使、\ruby{使}{つか}、lesson8、kanji-base
-つかう、to use、使う、\ruby{使}{つか}う、lesson8、kanji-compound
 か、borrow、借、\ruby{借}{か}、lesson8、kanji-base
-かりる、to borrow / to rent、借、\ruby{借}{か}りる、lesson8、kanji-compound
 ぶん、writing / composition / literature、文、\ruby{文}{ぶん}、lesson8、kanji-base
 ぶんぽう、grammar、文学、\ruby{文}{ぶん}\ruby{学}{がく}、lesson8、kanji-compound
 かん、Chinese、漢、\ruby{漢}{かん}、lesson8、kanji-base
@@ -88,9 +85,7 @@
 しゅくだい、homework、宿題、\ruby{宿}{しゅく}\ruby{題}{だい}、lesson8、kanji-compound
 しつ、quality / nature / inquire、質、\ruby{質}{しつ}、lesson8、kanji-base
 もん、question / problem / inquiry、問、\ruby{問}{もん}、lesson8、kanji-base
-しつもん、question、質問、\ruby{質}{しつ}\ruby{問}{もん}、lesson8、kanji-compound
 わす、forget、忘、\ruby{忘}{わす}、lesson8、kanji-base
-わすれる、to forget、忘れる、\ruby{忘}{わす}れる、lesson8、kanji-compound
 う、receive / accept / undergo、受、\ruby{受}{う}、lesson8、kanji-base
 じゅ、grant / give / teach、授、\ruby{授}{じゅ}、lesson8、kanji-base
 ぎょう、work / occupation / business / industry、業、\ruby{業}{ぎょう}、lesson8、kanji-base
@@ -100,7 +95,6 @@
 おそ、late / slow、遅、\ruby{遅}{おそ}、lesson8、 kanji-base
 おそい、late / slow、遅、\ruby{遅}{おそ}い、lesson8、 kanji-compound
 びょう、sickness / illness、病、\ruby{病}{びょう}、lesson8、kanji-base
-びょうき、sickness / illness、病き、\ruby{病}{びょう}き、lesson8、kanji-compound
 いん、institution、院、\ruby{院}{いん}、lesson8、kanji-base
 びょういん、hospital、病院、\ruby{病}{びょう}\ruby{院}{いん}、lesson8、kanji-compound
 だいがくいん、graduate student、大学院生、\ruby{大}{だい}\ruby{学}{がく}\ruby{院}{いん}\ruby{生}{せい}、lesson8, kanji-compound
