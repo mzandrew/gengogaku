@@ -31,7 +31,7 @@
 あに、one's own older brother、、\ruby{}{}、lesson5、noun
 おにいさん、older brother、、\ruby{}{}、lesson5、noun
 #バスケット、basketball、、\ruby{}{}、lesson5、noun
-イケメン、handsome (slang)、、\ruby{}{}、lesson5、noun
+#イケメン、handsome (slang)、、\ruby{}{}、lesson5、noun
 いぬ、dog、、\ruby{}{}、lesson5、noun
 ねこ、cat、、\ruby{}{}、lesson5、noun
 とり、bird、、\ruby{}{}、lesson5、noun
@@ -61,8 +61,9 @@
 こうこうせい、high school student、、\ruby{}{}、lesson5、noun
 しんせき、relatives、、\ruby{}{}、lesson5、noun
 こども、child / children、、\ruby{}{}、lesson5、noun
-＿ねんくらいまえ、about ＿ years ago、、\ruby{}{}、lesson5、noun
+＿ねんぐらいまえ、about ＿ years ago、、\ruby{}{}、lesson5、noun
 かばん、bag / backpack / briefcase、、\ruby{}{}、lesson5、noun
+#バッグ、bag / backpack / briefcase、、\ruby{}{}、lesson5、noun
 #Tシャツ、T-shirt、、\ruby{}{}、lesson5、noun
 とけい、watch / clock、、\ruby{}{}、lesson5、noun
 けいたい(でんわ)、cell phone、、\ruby{}{}、lesson5、noun
@@ -91,7 +92,7 @@
 ハンサム(な)、handsome、、\ruby{}{}、lesson5、na-adjective
 
 もっと(たかい)、more expensive、、\ruby{}{}、lesson5、adverb
-ぜんぜん〜ない、not at all、、\ruby{}{}、lesson5、adverb
+ぜんぜん〜ない、not at all、、\ruby{}{}、lesson5/lesson7、adverb
 まだ、still、、\ruby{}{}、lesson5、adverb
 
 まつ、to wait、、\ruby{}{}、lesson5、verb-
@@ -201,7 +202,7 @@
 ぶたい、stage / theatrical play、、\ruby{}{}、lesson7、noun
 よこくへん、movie trailer、、\ruby{}{}、lesson7、noun
 かんとく、director、、\ruby{}{}、lesson7、noun
-くろさわかんとく、director Kurosawa、、\ruby{}{}、lesson7、noun
+くろさわかんとく、director Kurosawa、、\ruby{}{}、lesson7、title
 #コメディー、comedy、、\ruby{}{}、lesson7、noun
 #ストーリー、story / plot、、\ruby{}{}、lesson7、noun
 えんぎがうまい、acting is good、、\ruby{}{}、lesson7、noun
@@ -214,13 +215,13 @@
 はいゆう、actor / actress、、\ruby{}{}、lesson7、noun
 じょゆう、actress、、\ruby{}{}、lesson7、noun
 せいゆう、voice actor、、\ruby{}{}、lesson7、noun
-スタジオジブリ、studio Ghibli、、\ruby{}{}、lesson7、noun
+スタジオジブリ、studio Ghibli、、\ruby{}{}、lesson7、title
 だいファン、big fan、、\ruby{}{}、lesson7、noun
 え、picture / drawing、、\ruby{}{}、lesson7、noun
 テーマ、theme、、\ruby{}{}、lesson7、noun
 なんども、many times、、\ruby{}{}、lesson7、noun
-せんとちひろのかみかくし、Spirited Away、、\ruby{}{}、lesson7、noun
-もののけひめ、Princess Mononoke、、\ruby{}{}、lesson7、noun
+せんとちひろのかみかくし、Spirited Away、、\ruby{}{}、lesson7、title
+もののけひめ、Princess Mononoke、、\ruby{}{}、lesson7、title
 りょうり、food / cuisine / prepared dish、、\ruby{}{}、lesson7、noun
 ちゅうか、Chinese food、、\ruby{}{}、lesson7、noun
 #スタバ、Starbucks、、\ruby{}{}、lesson7、noun
@@ -263,7 +264,7 @@
 まあまあ、so-so、、\ruby{}{}、lesson7、adverb
 あ(ん)まり〜ない、not very、、\ruby{}{}、lesson7、adverb
 そんなに〜ない、not that ＿、、\ruby{}{}、lesson7、adverb
-ぜんぜん〜ない、not at all、、\ruby{}{}、lesson7、adverb
+#ぜんぜん〜ない、not at all、、\ruby{}{}、lesson7、adverb
 はじめて、for the first time、、\ruby{}{}、lesson7、adverb
 よく、often、、\ruby{}{}、lesson7、adverb
 いつも、always、、\ruby{}{}、lesson7、adverb
@@ -342,8 +343,8 @@
 いしゃにいく、to go to the doctor、医者に行く、\ruby{医}{い}\ruby{者}{しゃ}に\ruby{行}{い}く、lesson8.1、expression
 おだいじに、take care / get well、お大事に、お\ruby{大}{だい}\ruby{事}{じ}に、lesson8.1, expression
 ぐあいがわるい、bad condition / not feeling well、具合が悪い、\ruby{具}{ぐ}\ruby{合}{あい}が\ruby{悪}{わる}い、lesson8, expression
-ごめん、sorry (casual)、ごめん、、lesson8, expression
-わるい、sorry (casual)、悪い、\ruby{悪}{わる}い、lesson8, expression
+ごめん、sorry (casual)、ごめん、、lesson8, other
+わるい、sorry (casual)、悪い、\ruby{悪}{わる}い、lesson8, other
 
 げん、beginning / origin、元、\ruby{元}{げん}、lesson8、kanji-base
 き、spirit / mind / air / atmosphere、気、\ruby{気}{き}、lesson8、kanji-base
