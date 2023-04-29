@@ -2,7 +2,7 @@
 
 # written 2023-04-14 by mza
 # based on https://github.com/kerrickstaley/genanki
-# last updated 2023-04-25 by mza
+# last updated 2023-04-27 by mza
 
 # "I'm-learning-Japanese-I-think-I'm-learning-Japanese-I-really-think-so"
 
@@ -21,7 +21,7 @@ order = "hiragana-alphabetical"
 #order = "lesson"
 
 FONT_SIZE = "12pt" # allowed values in extarticle are 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt and 20pt
-NUMBER_OF_LINES_PER_TABULAR = 46
+NUMBER_OF_LINES_PER_TABULAR = 43
 
 # -----------------------------------
 
@@ -71,7 +71,7 @@ def parse_csv_file():
 			count += 1
 	print("found " + str(count) + " total entries")
 
-def filter_lesson(lesson_strings):
+def filter_include_lesson(lesson_strings):
 	global entries
 	temporary = []
 	for entry in entries:
@@ -79,6 +79,32 @@ def filter_lesson(lesson_strings):
 			match = re.search(lesson_string, entry[4])
 			if match:
 				temporary.append(entry)
+	entries = temporary
+
+def filter_include_parts_of_speech(parts_of_speech):
+	global entries
+	temporary = []
+	for entry in entries:
+		should_include = False
+		for part_of_speech in parts_of_speech:
+			match = re.search(part_of_speech, entry[5])
+			if match:
+				should_include = True
+		if should_include:
+			temporary.append(entry)
+	entries = temporary
+
+def filter_exclude_parts_of_speech(parts_of_speech):
+	global entries
+	temporary = []
+	for entry in entries:
+		should_include = True
+		for part_of_speech in parts_of_speech:
+			match = re.search(part_of_speech, entry[5])
+			if match:
+				should_include = False
+		if should_include:
+			temporary.append(entry)
 	entries = temporary
 
 def sort_by(order):
@@ -273,9 +299,11 @@ def summary():
 
 parse_csv_file()
 deduplicate()
-#filter_lesson(["lesson8.1", "lesson8.3"])
-#filter_lesson(["lesson8"])
-#filter_lesson(["lesson6"])
+#filter_include_lesson(["lesson8.1", "lesson8.3"])
+#filter_include_lesson(["lesson8"])
+#filter_include_lesson(["lesson6"])
+#filter_include_parts_of_speech(["kanji-base", "expression"])
+filter_exclude_parts_of_speech(["kanji-base", "expression", "title"])
 sort_by(order)
 for mode in modes:
 	if "anki"==mode:
