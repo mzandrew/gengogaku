@@ -306,9 +306,11 @@ parse_csv_file()
 deduplicate()
 #filter_include_lessons(["lesson8.1", "lesson8.3"])
 #filter_include_lessons(["lesson7", "lesson8"])
+filter_include_lessons(["lesson0", "lesson1"])
 #filter_include_lessons(["lesson7"])
-filter_include_parts_of_speech(["kanji-base"])
-#filter_exclude_parts_of_speech(["kanji-base", "expression", "title"])
+#filter_include_parts_of_speech(["kanji-base"])
+#filter_include_parts_of_speech(["verb"])
+#filter_exclude_parts_of_speech(["kanji-base", "expression", "title", "name", "place", "field_of_study"])
 sort_by(order)
 for mode in modes:
 	if "anki"==mode:

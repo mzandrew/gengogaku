@@ -1,9 +1,160 @@
 #hiragana、English、kanji、kanji (furigana / latex)、lesson # first appeared in、part of speech
-#にほんご、Japanese (language)、日本語、\ruby{日}{に}\ruby{本}{ほん}\ruby{語}{ご}、
-#にほんじん、Japanese (person)、日本人、\ruby{日}{に}\ruby{本}{ほん}\ruby{人}{じん}、
 #いく、to go、行く、\ruby{行}{い}く、
 #くる、to come、来る、、
 #(お)ひる、lunch、、
+
+いち、one、、\ruby{}{}、lesson0、number
+に、two、、\ruby{}{}、lesson0、number
+さん、three、、\ruby{}{}、lesson0、number
+よん、four、、\ruby{}{}、lesson0、number
+し、four、、\ruby{}{}、lesson0、number
+ご、five、、\ruby{}{}、lesson0、number
+ろく、six、、\ruby{}{}、lesson0、number
+なな、seven、、\ruby{}{}、lesson0、number
+しち、seven、、\ruby{}{}、lesson0、number
+はち、eight、、\ruby{}{}、lesson0、number
+きゅう、nine、、\ruby{}{}、lesson0、number
+じゅう、ten、、\ruby{}{}、lesson0、number
+よんじゅう、forty、、\ruby{}{}、lesson0、number
+ひゃく、one hundred、、\ruby{}{}、lesson0、number
+さんびゃく、three hundred、、\ruby{}{}、lesson0、number
+よんひゃく、four hundred、、\ruby{}{}、lesson0、number
+ろっぴゃく、six hundred、、\ruby{}{}、lesson0、number
+せん、one thousand、、\ruby{}{}、lesson0、number
+さんぜん、three thousand、、\ruby{}{}、lesson0、number
+よんぜん、four thousand、、\ruby{}{}、lesson0、number
+はっせん、eight thousand、、\ruby{}{}、lesson0、number
+いちまん、ten thousand、、\ruby{}{}、lesson0、number
+
+しゅうしん、hometown、、\ruby{}{}、lesson1、noun
+わたし、I、、\ruby{}{}、lesson1、noun
+ところ、place、、\ruby{}{}、lesson1、noun
+くに、country、、\ruby{}{}、lesson1、noun
+せんせい、sensei / teacher、、\ruby{}{}、lesson1、noun
+にほん、Japan、日本、\ruby{日}{に}\ruby{本}{ほん}、lesson1、place
+にほんじん、Japanese (person)、日本人、\ruby{日}{に}\ruby{本}{ほん}\ruby{人}{じん}、lesson1、noun
+ちかく、nearby、、\ruby{}{}、lesson1、noun
+いちねんせい、first-year student / freshman、、\ruby{}{}、lesson1、noun
+おなじ、same、、\ruby{}{}、lesson1、noun
+にねんせい、second-year student / sophomore、、\ruby{}{}、lesson1、noun
+さんねんせい、third-year student / junior、、\ruby{}{}、lesson1、noun
+よんねんせい、fourth-year student、四年生、\ruby{四}{よん}\ruby{年}{ねん}\ruby{生}{せい}、lesson1、noun
+がくせい、student、、\ruby{}{}、lesson1、noun
+だいがくいんせい、graduate student、、\ruby{}{}、lesson1、noun
+だいがく、university、、\ruby{}{}、lesson1、noun
+だいがくせい、university student、、\ruby{}{}、lesson1、noun
+せんこう、academic major、、\ruby{}{}、lesson1、noun
+#コンピューター、computer、、\ruby{}{}、lesson1、noun
+けいえいがく、business administration、、\ruby{}{}、lesson1、field_of_study
+にほんご、Japanese (language)、日本語、\ruby{日}{に}\ruby{本}{ほん}\ruby{語}{ご}、lesson1、noun
+えいご、English (language)、、\ruby{}{}、lesson1、noun
+れきし、history、、\ruby{}{}、lesson1、field_of_study
+#サーフィン、surfing、、\ruby{}{}、lesson1、noun
+うみ、ocean、、\ruby{}{}、lesson1、noun
+えいが、movie、、\ruby{}{}、lesson1、noun
+ゲーム、game、、\ruby{}{}、lesson1、noun
+スポーツ、sports、、\ruby{}{}、lesson1、noun
+アニメ、anime、、\ruby{}{}、lesson1、noun
+インターネット、internet、、\ruby{}{}、lesson1、noun
+ネット、internet、、\ruby{}{}、lesson1、noun
+おんがく、music、、\ruby{}{}、lesson1、noun
+#テニス、tennis、、\ruby{}{}、lesson1、noun
+りょうり、food / cuisine / prepared dish、料理、\ruby{料}{りょう}\ruby{理}{り}、lesson1/lesson7、noun
+りょこう、travel / trip、、\ruby{}{}、lesson1、noun
+こちら、this person / this way、、\ruby{}{}、lesson1、noun
+ともだち、friend、友達、\ruby{友}{とも}\ruby{達}{だち}、lesson1、noun
+#スミス、Smith、、\ruby{}{}、lesson1、name
+はわいだいがく、University of Hawaii、ハワイ大学、ハワイ\ruby{大}{だい}\ruby{学}{がく}、lesson1、name
+かんこうがく、study of tourism、、\ruby{}{}、lesson1、field_of_study
+しゅみ、hobby、、\ruby{}{}、lesson1、noun
+げんごがく、linguistics、、\ruby{}{}、lesson1、field_of_study
+どくしょ、pleasure reading、、\ruby{}{}、lesson1、noun
+なまえ、name、、\ruby{}{}、lesson1、noun
+
+さむい、cold、、\ruby{}{}、lesson1、i-adjective
+いい、good / nice、、\ruby{}{}、lesson1、i-adjective
+あつい、hot、、\ruby{}{}、lesson1、i-adjective
+ちがい、close / near、、\ruby{}{}、lesson1、i-adjective
+とおい、far、、\ruby{}{}、lesson1、i-adjective
+おもしろい、interesting、、\ruby{}{}、lesson1、i-adjective
+むずかしい、difficult、、\ruby{}{}、lesson1、i-adjective
+たのしい、fun、、\ruby{}{}、lesson1、i-adjective
+つまらない、boring、、\ruby{}{}、lesson1、i-adjective
+こわい、scary / scared、、\ruby{}{}、lesson1、i-adjective
+
+すき(な)、fond of、、\ruby{}{}、lesson1、na-adjective
+たいへん(な)、tough / hard to deal with、、\ruby{}{}、lesson1、na-adjective
+かんたん(な)、easy、、\ruby{}{}、lesson1、na-adjective
+きれい(な)、beautiful / pretty / clean、、\ruby{}{}、lesson1、na-adjective
+べんり(な)、convenient / useful、、\ruby{}{}、lesson1、na-adjective
+しずか(な)、quiet、、\ruby{}{}、lesson1、na-adjective
+
+いま、now、、\ruby{}{}、lesson1、adverb
+ちょっと、a little、、\ruby{}{}、lesson1、adverb
+たくさん、a lot、、\ruby{}{}、lesson1、adverb
+
+わかる、to understand / to know、、\ruby{}{}、lesson1、verb
+
+じゃ、then、、\ruby{}{}、lesson1、conjunction
+
+どこ、where、、\ruby{}{}、lesson1、question
+どちら、where、、\ruby{}{}、lesson1、question
+なんねんせい、which year (in school)、、\ruby{}{}、lesson1、question
+どう、how、、\ruby{}{}、lesson1、question
+なに、what、、\ruby{}{}、lesson1、question
+なん、what、、\ruby{}{}、lesson1、question
+どんな、which / what kind of、、\ruby{}{}、lesson1、question
+
+ほっかいどう、Hokkaido、、\ruby{}{}、lesson1、place
+マウイ(とう)、Maui (island of)、、\ruby{}{}、lesson1、place
+キヘイ、Kihei、、\ruby{}{}、lesson1、place
+ハワイ、Hawaii、、\ruby{}{}、lesson1、place
+ホノルル、Honolulu、、\ruby{}{}、lesson1、place
+オアフ(とう)、Oahu (island of)、、\ruby{}{}、lesson1、place
+カウアイ(とう)、Kauai (island of)、、\ruby{}{}、lesson1、place
+ハワイ(とう)、Hawaii (island of)、、\ruby{}{}、lesson1、place
+ビッグアイランド、Big Island、、\ruby{}{}、lesson1、place
+とうきょう、Tokyo、東京、\ruby{東}{とう}\ruby{京}{きょう}、lesson1、place
+コハラ、Kohala、、\ruby{}{}、lesson1、place
+コナ、Kona、、\ruby{}{}、lesson1、place
+ちば、Chiba、、\ruby{}{}、lesson1、place
+
+へえ、oh yes / really?、、\ruby{}{}、lesson1、expression
+ええと、err... well、、\ruby{}{}、lesson1、expression
+まだ〜ない、not yet、、\ruby{}{}、lesson1、expression
+
+いがく、study of medicine、、\ruby{}{}、lesson1、field_of_study
+えいぶんがく、English (literature)、、\ruby{}{}、lesson1、field_of_study
+えんげき、theater、、\ruby{}{}、lesson1、field_of_study
+はいけいがく、accounting、、\ruby{}{}、lesson1、field_of_study
+かがく、chemistry、、\ruby{}{}、lesson1、field_of_study
+かんきょうがく、environmental studies、、\ruby{}{}、lesson1、field_of_study
+かんごがく、study of nursing、、\ruby{}{}、lesson1、field_of_study
+きょういくがく、study of education、、\ruby{}{}、lesson1、field_of_study
+けいだいがく、economics、、\ruby{}{}、lesson1、field_of_study
+しゅうきょうがく、study of religion、、\ruby{}{}、lesson1、field_of_study
+しんりがく、psychology、、\ruby{}{}、lesson1、field_of_study
+すうがく、math、、\ruby{}{}、lesson1、field_of_study
+せいがつかがく、family resources、、\ruby{}{}、lesson1、field_of_study
+せいじがく、political science、、\ruby{}{}、lesson1、field_of_study
+せいぶつがく、biology、、\ruby{}{}、lesson1、field_of_study
+ちがく、geology / earth science、地学、\ruby{}{}、lesson1、field_of_study
+ちりがく、geography、地理学、\ruby{}{}、lesson1、field_of_study
+てつがく、philosophy、、\ruby{}{}、lesson1、field_of_study
+てんもんがく、astronomy、天文学、\ruby{}{}、lesson1、field_of_study
+でんきこうがく、electrical engineering、電気工学、\ruby{}{}、lesson1、field_of_study
+でんしこうがく、electronics engineering、電子工学、\ruby{}{}、lesson1、field_of_study
+どうぶつがく、zoology、、\ruby{}{}、lesson1、field_of_study
+どぼくこがく、civil engineering、、\ruby{}{}、lesson1、field_of_study
+にほんぶんがく、Japanese (literature)、、\ruby{}{}、lesson1、field_of_study
+びじゅつ、fine arts、、\ruby{}{}、lesson1、field_of_study
+ふくしがく、social work、、\ruby{}{}、lesson1、field_of_study
+ぶつりがく、physics、物理学、\ruby{物}{ぶつ}\ruby{理}{り}\ruby{学}{がく}、lesson1、field_of_study
+ぶんがく、literature、、\ruby{}{}、lesson1、field_of_study
+
+#ウエイトトレーニング、weight training、、\ruby{}{}、lesson1、hobby
+#バスケットバール、basketball、、\ruby{}{}、lesson1、hobby
+#バレーボール、volleyball、、\ruby{}{}、lesson1、hobby
 
 しゃしん、photo、、\ruby{}{}、lesson5、noun
 はは、one's own mother、、\ruby{}{}、lesson5、noun
@@ -222,7 +373,7 @@
 なんども、many times、何度も、\ruby{何}{なん}\ruby{度}{ど}も、lesson7、noun
 せんとちひろのかみかくし、Spirited Away、千と千尋の神隠し、\ruby{千}{せん}と\ruby{千}{ち}\ruby{尋}{ひろ}の\ruby{神}{かみ}\ruby{隠}{かく}し、lesson7、title
 もののけひめ、Princess Mononoke、もののけ姫、もののけ\ruby{姫}{ひめ}、lesson7、title
-りょうり、food / cuisine / prepared dish、料理、\ruby{料}{りょう}\ruby{理}{り}、lesson7、noun
+#りょうり、food / cuisine / prepared dish、料理、\ruby{料}{りょう}\ruby{理}{り}、lesson7/duplicate、noun
 ちゅうか、Chinese food、中華、\ruby{中}{ちゅう}\ruby{華}{か}、lesson7、noun
 #スタバ、Starbucks、、\ruby{}{}、lesson7、noun
 #エスニック、ethnic food / cuisine、、\ruby{}{}、lesson7、noun
