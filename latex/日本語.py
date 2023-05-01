@@ -2,28 +2,11 @@
 
 # written 2023-04-14 by mza
 # based on https://github.com/kerrickstaley/genanki
-# last updated 2023-04-27 by mza
+# last updated 2023-04-30 by mza
 
 # "I'm-learning-Japanese-I-think-I'm-learning-Japanese-I-really-think-so"
 
-# usage:
-# ./日本語.py && pdflatex 日本語.tex
-
-# ---------- user settings ----------
-
-modes = [ "anki", "latex" ]
-
-anki_output_file = "日本語.apkg"
-latex_output_file = "日本語.tex"
-
-#order = "natural"
-order = "hiragana-alphabetical"
-#order = "lesson"
-
 FONT_SIZE = "12pt" # allowed values in extarticle are 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt and 20pt
-NUMBER_OF_LINES_PER_TABULAR = 43
-
-# -----------------------------------
 
 import re
 
@@ -71,7 +54,7 @@ def parse_csv_file():
 			count += 1
 	print("found " + str(count) + " total entries")
 
-def filter_include_lesson(lesson_strings):
+def filter_include_lessons(lesson_strings):
 	global entries
 	temporary = []
 	for entry in entries:
@@ -297,11 +280,30 @@ def summary():
 	else:
 		print("no duplicate entries!")
 
+# usage:
+# ./日本語.py && pdflatex 日本語.tex
+
+# ---------- user settings ----------
+
+modes = [ "anki", "latex" ]
+
+anki_output_file = "日本語.apkg"
+latex_output_file = "日本語.tex"
+
+#order = "natural"
+order = "hiragana-alphabetical"
+#order = "lesson"
+
+#NUMBER_OF_LINES_PER_TABULAR = 36
+NUMBER_OF_LINES_PER_TABULAR = 43
+
+# -----------------------------------
+
 parse_csv_file()
 deduplicate()
-#filter_include_lesson(["lesson8.1", "lesson8.3"])
-#filter_include_lesson(["lesson8"])
-#filter_include_lesson(["lesson6"])
+#filter_include_lessons(["lesson8.1", "lesson8.3"])
+#filter_include_lessons(["lesson7", "lesson8"])
+#filter_include_lessons(["lesson7"])
 #filter_include_parts_of_speech(["kanji-base", "expression"])
 filter_exclude_parts_of_speech(["kanji-base", "expression", "title"])
 sort_by(order)
