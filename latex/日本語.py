@@ -73,8 +73,11 @@ def filter_include_parts_of_speech(parts_of_speech):
 			match = re.search(part_of_speech, entry[5])
 			if match:
 				should_include = True
+#			else:
+#				print(entry[5])
 		if should_include:
 			temporary.append(entry)
+#	print(str(len(temporary)))
 	entries = temporary
 
 def filter_exclude_parts_of_speech(parts_of_speech):
@@ -252,8 +255,8 @@ def do_latex():
 		if not ""==kanji_furigana and not "\\ruby{}{}"==kanji_furigana:
 			japanese = kanji_furigana
 		my_fields = [ hiragana, japanese, english, lesson, part_of_speech ]
-		if not "kanji-base"==part_of_speech:
-			latex_entries.append(my_fields)
+		#if not "kanji-base"==part_of_speech:
+		latex_entries.append(my_fields)
 	latex_count = len(latex_entries)
 	print("found " + str(latex_count) + " latex entries")
 	line_count_so_far_for_this_tabular = 0
@@ -304,8 +307,8 @@ deduplicate()
 #filter_include_lessons(["lesson8.1", "lesson8.3"])
 #filter_include_lessons(["lesson7", "lesson8"])
 #filter_include_lessons(["lesson7"])
-#filter_include_parts_of_speech(["kanji-base", "expression"])
-filter_exclude_parts_of_speech(["kanji-base", "expression", "title"])
+filter_include_parts_of_speech(["kanji-base"])
+#filter_exclude_parts_of_speech(["kanji-base", "expression", "title"])
 sort_by(order)
 for mode in modes:
 	if "anki"==mode:
