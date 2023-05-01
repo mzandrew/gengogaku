@@ -41,7 +41,7 @@
 とし、old、、\ruby{}{}、lesson5、noun
 どくしん、single / not married、、\ruby{}{}、lesson5、noun
 かいしゃ、company、、\ruby{}{}、lesson5、noun
-りょう、portion / amount、、\ruby{}{}、lesson5/lesson7、noun
+りょう、portion / amount、量、\ruby{量}{りょう}、lesson5/lesson7、noun
 #プログラミング、programming、、\ruby{}{}、lesson5、noun
 うえの、older of two、、\ruby{}{}、lesson5、noun
 したの、younger of two、、\ruby{}{}、lesson5、noun
@@ -198,73 +198,73 @@
 ＿ぐらい、about ＿、、\ruby{}{}、lesson6、expression
 あとで、later on、後で、\ruby{後}{あと}で、lesson6/lesson8.1、expression
 
-チフビばんぐみ、TV program、、\ruby{}{}、lesson7、noun
-ぶたい、stage / theatrical play、、\ruby{}{}、lesson7、noun
-よこくへん、movie trailer、、\ruby{}{}、lesson7、noun
-かんとく、director、、\ruby{}{}、lesson7、noun
-くろさわかんとく、director Kurosawa、、\ruby{}{}、lesson7、title
+チフビばんぐみ、TV program、テレビ番組、テレビ\ruby{番}{ばん}\ruby{組}{ぐみ}、lesson7、noun
+ぶたい、stage / theatrical play、舞台、\ruby{舞}{ぶ}\ruby{台}{たい}、lesson7、noun
+よこくへん、movie trailer、予告編、\ruby{予}{よ}\ruby{告}{こく}\ruby{編}{へん}、lesson7、noun
+かんとく、director、監督、\ruby{監}{かん}\ruby{督}{とく}、lesson7、noun
+くろさわかんとく、director Kurosawa、黒澤監督、\ruby{黒}{くろ}\ruby{澤}{さわ}\ruby{監}{かん}\ruby{督}{とく}、lesson7、title
 #コメディー、comedy、、\ruby{}{}、lesson7、noun
 #ストーリー、story / plot、、\ruby{}{}、lesson7、noun
-えんぎがうまい、acting is good、、\ruby{}{}、lesson7、noun
-えんぎがへた、acting is bad、、\ruby{}{}、lesson7、noun
+えんぎがうまい、acting is good、演技がうまい、\ruby{演}{えん}\ruby{技}{ぎ}がうまい、lesson7、noun
+えんぎがへた、acting is bad、演技が下手、\ruby{演}{えん}\ruby{技}{ぎ}が\ruby{下}{へ}\ruby{手}{た}、lesson7、noun
 テンポ、tempo / pace、、\ruby{}{}、lesson7、noun
 #アクション、action (movie)、、\ruby{}{}、lesson7、noun
 はじめ、beginning / start、、\ruby{}{}、lesson7、noun
-さいご、end / conclusion / last、、\ruby{}{}、lesson7、noun
-ドラマ、drama、、\ruby{}{}、lesson7、noun
-はいゆう、actor / actress、、\ruby{}{}、lesson7、noun
-じょゆう、actress、、\ruby{}{}、lesson7、noun
-せいゆう、voice actor、、\ruby{}{}、lesson7、noun
+さいご、end / conclusion / last、最後、\ruby{最}{さい}\ruby{後}{ご}、lesson7、noun
+#ドラマ、drama、、\ruby{}{}、lesson7、noun
+はいゆう、actor / actress、俳優、\ruby{俳}{はい}\ruby{優}{ゆう}、lesson7、noun
+じょゆう、actress、女優、\ruby{女}{じょ}\ruby{優}{ゆう}、lesson7、noun
+せいゆう、voice actor、声優、\ruby{声}{せい}\ruby{優}{ゆう}、lesson7、noun
 スタジオジブリ、studio Ghibli、、\ruby{}{}、lesson7、title
-だいファン、big fan、、\ruby{}{}、lesson7、noun
-え、picture / drawing、、\ruby{}{}、lesson7、noun
+だいファン、big fan、大ファン、\ruby{大}{だい}ファン、lesson7、noun
+え、picture / drawing、絵、\ruby{絵}{え}、lesson7、noun
 テーマ、theme、、\ruby{}{}、lesson7、noun
-なんども、many times、、\ruby{}{}、lesson7、noun
-せんとちひろのかみかくし、Spirited Away、、\ruby{}{}、lesson7、title
-もののけひめ、Princess Mononoke、、\ruby{}{}、lesson7、title
-りょうり、food / cuisine / prepared dish、、\ruby{}{}、lesson7、noun
-ちゅうか、Chinese food、、\ruby{}{}、lesson7、noun
+なんども、many times、何度も、\ruby{何}{なん}\ruby{度}{ど}も、lesson7、noun
+せんとちひろのかみかくし、Spirited Away、千と千尋の神隠し、\ruby{千}{せん}と\ruby{千}{ち}\ruby{尋}{ひろ}の\ruby{神}{かみ}\ruby{隠}{かく}し、lesson7、title
+もののけひめ、Princess Mononoke、もののけ姫、もののけ\ruby{姫}{ひめ}、lesson7、title
+りょうり、food / cuisine / prepared dish、料理、\ruby{料}{りょう}\ruby{理}{り}、lesson7、noun
+ちゅうか、Chinese food、中華、\ruby{中}{ちゅう}\ruby{華}{か}、lesson7、noun
 #スタバ、Starbucks、、\ruby{}{}、lesson7、noun
 #エスニック、ethnic food / cuisine、、\ruby{}{}、lesson7、noun
-#りょう、portion / amount、、\ruby{}{}、lesson7、noun
-ふんいき、atmosphere、、\ruby{}{}、lesson7、noun
+#りょう、portion / amount、、\ruby{}{}、lesson7/duplicate、noun
+ふんいき、atmosphere、雰囲気、\ruby{雰}{ふん}\ruby{囲}{い}\ruby{気}{き}、lesson7、noun
 メニュー、menu、、\ruby{}{}、lesson7、noun
 サービス、service、、\ruby{}{}、lesson7、noun
 #ジンジャーチキン、ginger chicken、、\ruby{}{}、lesson7、noun
-ぎょうざ、potstickers / gyoza、、\ruby{}{}、lesson7、noun
+ぎょうざ、potstickers / gyoza、餃子、\ruby{餃}{ぎょう}\ruby{子}{ざ}、lesson7、noun
 バリバリ、crispy、、\ruby{}{}、lesson7、noun
 #オーナー、owner、、\ruby{}{}、lesson7、noun
-てづくり、homemade、、\ruby{}{}、lesson7、noun
+てづくり、homemade、手作り、\ruby{手}{て}\ruby{作}{づく}り、lesson7、noun
 おすすめ、recommendation、、\ruby{}{}、lesson7、noun
-わしょく、Japanese food / cuisine、、\ruby{}{}、lesson7、noun
+わしょく、Japanese food / cuisine、和食、\ruby{和}{わ}\ruby{食}{しょく}、lesson7、noun
 #イタリアン、Italian、、\ruby{}{}、lesson7、noun
-イタリアりょうり、Italian food / cuisine、、\ruby{}{}、lesson7、noun
-#さかな、fish、魚、\ruby{魚}{さかな}、lesson7、noun
-にく、meat、、\ruby{}{}、lesson7、noun
+イタリアりょうり、Italian food / cuisine、イタリア料理、イタリア\ruby{料}{りょう}\ruby{理}{り}、lesson7、noun
+#さかな、fish、魚、\ruby{魚}{さかな}、lesson7/duplicate、noun
+にく、meat、肉、\ruby{肉}{にく}、lesson7、noun
 #ぎゅうにく、beef、、\ruby{}{}、lesson7、noun
-やさい、vegetables、、\ruby{}{}、lesson7、noun
+やさい、vegetables、野菜、\ruby{野}{や}\ruby{菜}{さい}、lesson7、noun
 #チキンアドボ、chicken adobo、、\ruby{}{}、lesson7、noun
-フィリピンりょうり、Filipino food / cuisine、、\ruby{}{}、lesson7、noun
+フィリピンりょうり、Filipino food / cuisine、フィリピン料理、フィリピン\ruby{料}{りょう}\ruby{理}{り}、lesson7、noun
 
 つまらない、boring / dull、、\ruby{}{}、lesson7、i-adjective
 
 イマイチ(な)、lacking / could be better、、\ruby{}{}、lesson7、na-adjective
 まじめ(な)、serious / diligent / hard-working、、\ruby{}{}、lesson7、na-adjective
-ゆうめい(な)、famous、、\ruby{}{}、lesson7、na-adjective
+ゆうめい(な)、famous、有名、\ruby{有}{ゆう}\ruby{名}{めい}、lesson7、na-adjective
 おしゃれ(な)、trendy / fashionable / stylish、、\ruby{}{}、lesson7、na-adjective
 いろいろ(な)、various others、、\ruby{}{}、lesson7、na-adjective
-しんせん(な)、fresh (food)、、\ruby{}{}、lesson7、na-adjective
+しんせん(な)、fresh (food)、新鮮、\ruby{新}{しん}\ruby{鮮}{せん}、lesson7、na-adjective
 
 とても、very、、\ruby{}{}、lesson7、adverb
 とっても、very (colloquial)、、\ruby{}{}、lesson7、adverb
 すごく、very (casual)、、\ruby{}{}、lesson7、adverb
 すっごく、very (colloquial)、、\ruby{}{}、lesson7、adverb
-ちょう、super / extremely (slang)、、\ruby{}{}、lesson7、adverb
+ちょう、super / extremely (slang)、超、\ruby{超}{ちょう}、lesson7、adverb
 けっこう、quite、、\ruby{}{}、lesson7、adverb
 まあまあ、so-so、、\ruby{}{}、lesson7、adverb
 あ(ん)まり〜ない、not very、、\ruby{}{}、lesson7、adverb
 そんなに〜ない、not that ＿、、\ruby{}{}、lesson7、adverb
-#ぜんぜん〜ない、not at all、、\ruby{}{}、lesson7、adverb
+#ぜんぜん〜ない、not at all、、\ruby{}{}、lesson7/duplicate、adverb
 はじめて、for the first time、、\ruby{}{}、lesson7、adverb
 よく、often、、\ruby{}{}、lesson7、adverb
 いつも、always、、\ruby{}{}、lesson7、adverb
@@ -274,17 +274,17 @@
 めったに〜ない、rarely、、\ruby{}{}、lesson7、adverb
 
 ドキドキする、to make one's heart pound、、\ruby{}{}、lesson7、verb-III
-なける、to make one cry、、\ruby{}{}、lesson7、verb-II
-わらえる、to make one laugh、、\ruby{}{}、lesson7、verb-II
-かんどうする、to be touching、、\ruby{}{}、lesson7、verb-III
-でる、to appear in (movie / TV)、、\ruby{}{}、lesson7、verb-II
+なける、to make one cry、泣ける、\ruby{泣}{な}ける、lesson7、verb-II
+わらえる、to make one laugh、笑える、\ruby{笑}{わら}える、lesson7、verb-II
+かんどうする、to be touching、感動する、\ruby{感}{かん}\ruby{動}{どう}する、lesson7、verb-III
+でる、to appear in (movie / TV)、出る、\ruby{出}{で}る、lesson7、verb-II
 やめる、to quit / give up on an idea、、\ruby{}{}、lesson7、verb-II
 がっかりする、to be disappointed、、\ruby{}{}、lesson7、verb-III
 
-りょうがおおい、portions are big、、\ruby{}{}、lesson7.5、expression
-りょうがすくない、portions are small、、\ruby{}{}、lesson7.5、expression
-ふんいきがいい、has good atmosphere、、\ruby{}{}、lesson7.5、expression
-メニューがおおい、has a large menu、、\ruby{}{}、lesson7.5、expression
+りょうがおおい、portions are big、量が多い、\ruby{量}{りゅう}が\ruby{多}{おお}い、lesson7.5、expression
+りょうがすくない、portions are small、量が少ない、\ruby{量}{りゅう}が\ruby{少}{すく}ない、lesson7.5、expression
+ふんいきがいい、has good atmosphere、雰囲気がいい、\ruby{雰}{ふん}\ruby{囲}{い}\ruby{気}{き}がいい、lesson7.5、expression
+メニューがおおい、has a large menu、メニューが多い、メニューが\ruby{多}{おお}い、lesson7.5、expression
 サービスがいい、has good service、、\ruby{}{}、lesson7.5、expression
 
 けさ、this morning、今朝、\ruby{今}{け}\ruby{朝}{さ}、lesson8.1、noun
@@ -301,12 +301,12 @@
 いしゃ、doctor、医者、\ruby{医}{い}\ruby{者}{しゃ}、lesson8.1、noun
 さらいしゅう、the week after next、、\ruby{再}{さ}\ruby{来}{らい}\ruby{週}{しゅう}、lesson8.1、noun
 つぎ、next、次、\ruby{次}{つぎ}、lesson8.1、noun
-#ごご、afternoon、午後、\ruby{午}{ご}\ruby{後}{ご}、lesson8.1、noun
+#ごご、afternoon、午後、\ruby{午}{ご}\ruby{後}{ご}、lesson8.1/duplicate、noun
 きょうかしょ、textbook、教科書、\ruby{教}{きょう}\ruby{科}{か}\ruby{書}{しょ}、lesson8.3、noun
 でんき、lights / electricity、電気、\ruby{電}{でん}\ruby{気}{き}、lesson8.3、noun/kanji-compound
 えんぴつ、pencil、鉛筆、\ruby{鉛}{えん}\ruby{筆}{ぴつ}、lesson8.3、noun
 けしごむ、eraser、消しゴム、\ruby{消}{け}しゴム、lesson8.3、noun
-#おかね、money、お金、お\ruby{金}{かね}、lesson8.3、noun
+#おかね、money、お金、お\ruby{金}{かね}、lesson8.3/duplicate、noun
 (お)さいふ、wallet / coin purse、、、lesson8.3、noun
 #ドア、door、、、lesson8.3、noun
 まど、window、、、lesson8.3、noun
