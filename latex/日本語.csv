@@ -236,7 +236,7 @@
 #オーナー、owner、、\ruby{}{}、lesson7、noun
 てづくり、homemade、手作り、\ruby{手}{て}\ruby{作}{づく}り、lesson7、noun
 おすすめ、recommendation、、\ruby{}{}、lesson7、noun
-わしょく、Japanese food / cuisine、和食、\ruby{和}{わ}\ruby{食}{しょく}、lesson7、noun
+わしょく、Japanese food / cuisine、和食、\ruby{和}{わ}\hspace{0.5em}\ruby{食}{しょく}、lesson7、noun
 #イタリアン、Italian、、\ruby{}{}、lesson7、noun
 イタリアりょうり、Italian food / cuisine、イタリア料理、イタリア\ruby{料}{りょう}\ruby{理}{り}、lesson7、noun
 #さかな、fish、魚、\ruby{魚}{さかな}、lesson7/duplicate、noun
@@ -358,7 +358,7 @@
 つか、use、使、\ruby{使}{つか}、lesson8、kanji-base
 か、borrow、借、\ruby{借}{か}、lesson8、kanji-base
 ぶん、writing / composition / literature、文、\ruby{文}{ぶん}、lesson8、kanji-base
-ぶんぽう、grammar、文学、\ruby{文}{ぶん}\ruby{学}{がく}、lesson8、kanji-compound
+ぶんぽう、grammar、文法、\ruby{文}{ぶん}\ruby{法}{ぽう}、lesson8、kanji-compound
 かん、Chinese、漢、\ruby{漢}{かん}、lesson8、kanji-base
 じ、character、字、\ruby{字}{じ}、lesson8、kanji-base
 かんじ、Chinese character、漢字、\ruby{漢}{かん}\ruby{字}{じ}、lesson8、kanji-compound
