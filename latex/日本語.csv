@@ -3,6 +3,10 @@
 #くる、to come、来る、、
 #(お)ひる、lunch、、
 
+よむ、to read、読む、\ruby{読}{よ}む、、verb-
+きく、to listen、聞く、\ruby{聞}{き}く、、verb-
+のむ、to drink、飲む、\ruby{飲}{の}む、、verb-
+
 いち、one、、\ruby{}{}、lesson0、number
 に、two、、\ruby{}{}、lesson0、number
 さん、three、、\ruby{}{}、lesson0、number
@@ -79,7 +83,7 @@
 おもしろい、interesting、、\ruby{}{}、lesson1、i-adjective
 むずかしい、difficult、、\ruby{}{}、lesson1、i-adjective
 たのしい、fun、、\ruby{}{}、lesson1、i-adjective
-つまらない、boring、、\ruby{}{}、lesson1、i-adjective
+つまらない、boring / dull、、\ruby{}{}、lesson1/lesson7、i-adjective
 こわい、scary / scared、、\ruby{}{}、lesson1、i-adjective
 
 すき(な)、fond of、、\ruby{}{}、lesson1、na-adjective
@@ -150,11 +154,13 @@
 びじゅつ、fine arts、、\ruby{}{}、lesson1、field_of_study
 ふくしがく、social work、、\ruby{}{}、lesson1、field_of_study
 ぶつりがく、physics、物理学、\ruby{物}{ぶつ}\ruby{理}{り}\ruby{学}{がく}、lesson1、field_of_study
-ぶんがく、literature、、\ruby{}{}、lesson1、field_of_study
+ぶんがく、literature、文学、\ruby{文}{ぶん}\ruby{学}{がく}、lesson1/lesson8、noun/field_of_study
 
 #ウエイトトレーニング、weight training、、\ruby{}{}、lesson1、hobby
 #バスケットバール、basketball、、\ruby{}{}、lesson1、hobby
 #バレーボール、volleyball、、\ruby{}{}、lesson1、hobby
+
+ことし、this year、今年、\ruby{今年}{ことし}、lesson4、time
 
 しゃしん、photo、、\ruby{}{}、lesson5、noun
 はは、one's own mother、、\ruby{}{}、lesson5、noun
@@ -168,7 +174,7 @@
 おばあさん、grandmother、、\ruby{}{}、lesson5、noun
 そふ、one's own grandfather、、\ruby{}{}、lesson5、noun
 おじいさん、grandfather、、\ruby{}{}、lesson5、noun
-きょうだい、siblings、兄弟、\ruby{あに}{きょう}\ruby{弟}{だい}、lesson5、noun
+きょうだい、siblings、兄弟、\ruby{兄}{きょう}\ruby{弟}{だい}、lesson5、noun/kanji-compound
 あね、one's own older sister、、\ruby{}{}、lesson5、noun
 おねえさん、older sister、、\ruby{}{}、lesson5、noun
 いもうと、one's own younger sister、、\ruby{}{}、lesson5、noun
@@ -246,7 +252,7 @@
 ぜんぜん〜ない、not at all、、\ruby{}{}、lesson5/lesson7、adverb
 まだ、still、、\ruby{}{}、lesson5、adverb
 
-まつ、to wait、、\ruby{}{}、lesson5、verb-
+まつ、to wait、待つ、\ruby{待}{ま}つ、lesson5、verb-
 すむ、to live、、\ruby{}{}、lesson5、verb-
 いる、to have (siblings)、、\ruby{}{}、lesson5、verb-
 にる、to resemble、、\ruby{}{}、lesson5、verb-
@@ -397,7 +403,7 @@
 #チキンアドボ、chicken adobo、、\ruby{}{}、lesson7、noun
 フィリピンりょうり、Filipino food / cuisine、フィリピン料理、フィリピン\ruby{料}{りょう}\ruby{理}{り}、lesson7、noun
 
-つまらない、boring / dull、、\ruby{}{}、lesson7、i-adjective
+#つまらない、boring / dull、、\ruby{}{}、lesson7/duplicate、i-adjective
 
 イマイチ(な)、lacking / could be better、、\ruby{}{}、lesson7、na-adjective
 まじめ(な)、serious / diligent / hard-working、、\ruby{}{}、lesson7、na-adjective
@@ -442,11 +448,8 @@
 しつもん、question、質問、\ruby{質}{しつ}\ruby{問}{もん}、lesson8.1、noun/kanji-compound
 #オフイス、office、、、lesson8、noun
 せいせき、grades、成績、\ruby{成}{せい}\ruby{績}{せき}、lesson8.1、noun
-あたま、head、頭、\ruby{頭}{あたま}、lesson8.1、noun
 ねつ、fever、熱、\ruby{熱}{ねつ}、lesson8.1、noun
 かぜ、a cold、風邪、\ruby{風}{か}\ruby{邪}{ぜ}、lesson8.1、noun
-おなか、stomach / abdomen、、、lesson8.1、noun
-のど、throat、、、lesson8.1、noun
 びょうき、illness / sickness、病気、\ruby{病}{びょう}\ruby{気}{き}、lesson8.1、noun/kanji-compound
 びょういん、clinic / hospital、病院、\ruby{病}{びょう}\ruby{院}{いん}、lesson8.1、noun/kanji-compound
 いしゃ、doctor、医者、\ruby{医}{い}\ruby{者}{しゃ}、lesson8.1、noun
@@ -463,6 +466,25 @@
 まど、window、、、lesson8.3、noun
 じこ、traffic accident、事故、\ruby{事}{じ}\ruby{故}{こ}、lesson8.4、noun
 じゅうたい、traffic jam / congestion、渋滞、\ruby{渋}{じゅう}\ruby{滞}{たい}、lesson8.4、noun
+
+め、eye、目、\ruby{目}{め}、lesson8、noun
+みみ、ear、耳、\ruby{耳}{みみ}、lesson8、noun
+はな、nose、鼻、\ruby{鼻}{はな}、lesson8、noun
+くび、neck、首、\ruby{首}{くび}、lesson8、noun
+くち、mouth、口、\ruby{口}{くち}、lesson8、noun
+は、teeth、歯、\ruby{歯}{は}、lesson8、noun
+した、tongue、舌、\ruby{舌}{した}、lesson8、noun
+あたま、head、頭、\ruby{頭}{あたま}、lesson8.1、noun
+のど、throat、、、lesson8.1、noun
+ゆび、finger、指、\ruby{指}{ゆび}、lesson8、noun
+て、hand、手、\ruby{手}{て}、lesson8、noun
+せなか、back、背中、\ruby{背中}{せなか}、lesson8、noun
+こし、lower back / waist、腰、\ruby{腰}{こし}、lesson8、noun
+かた、shoulder、肩、\ruby{肩}{かた}、lesson8、noun
+うで、arm、腕、\ruby{腕}{うで}、lesson8、noun
+おなか、stomach / abdomen、、、lesson8.1、noun
+あし、leg、足、\ruby{足}{あし}、lesson8、noun
+ひざ、knee、、、lesson8、noun
 
 よろしい、all right / good (polite)、、\ruby{}{}、lesson8.1、i-adjective
 いたい、hurts / painful / sore、、\ruby{}{}、lesson8.1、i-adjective
@@ -493,7 +515,17 @@
 びょういんにいく、to go to a clinic / hospital、病院に行く、\ruby{病}{びょう}\ruby{院}{いん}に\ruby{行}{い}く、lesson8.1、expression
 いしゃにいく、to go to the doctor、医者に行く、\ruby{医}{い}\ruby{者}{しゃ}に\ruby{行}{い}く、lesson8.1、expression
 おだいじに、take care / get well、お大事に、お\ruby{大}{だい}\ruby{事}{じ}に、lesson8.1, expression
-ぐあいがわるい、bad condition / not feeling well、具合が悪い、\ruby{具}{ぐ}\ruby{合}{あい}が\ruby{悪}{わる}い、lesson8, expression
+ぐあいがわるい、feel sick / ill / not feeling well、具合が悪い、\ruby{具}{ぐ}\ruby{合}{あい}が\ruby{悪}{わる}い、lesson8, expression
+きぶんがわるい、feel nauseous、、\ruby{}{}、lesson8、expression
+かぜをひいた、caught a cold、、\ruby{}{}、lesson8、expression
+ねつがする、have a fever、熱がする、\ruby{熱}{ねつ}がする、lesson8、expression
+あたまがいたい、have a headache、、\ruby{}{}、lesson8、expression
+おなかがいたい、have a stomachache、、\ruby{}{}、lesson8、expression
+はがいたい、have a toothache、、\ruby{}{}、lesson8、expression
+のどがいたい、have a sore throat、、\ruby{}{}、lesson8、expression
+こしがいたい、have lower back pain、、\ruby{}{}、lesson8、expression
+せきがでる、have a cough、、\ruby{}{}、lesson8、expression
+アレルギーがでた、have an allergy / allergic reaction、、\ruby{}{}、lesson8、expression
 ごめん、sorry (casual)、ごめん、、lesson8, other
 わるい、sorry (casual)、悪い、\ruby{悪}{わる}い、lesson8, other
 
@@ -513,21 +545,25 @@
 かん、Chinese、漢、\ruby{漢}{かん}、lesson8、kanji-base
 じ、character、字、\ruby{字}{じ}、lesson8、kanji-base
 かんじ、Chinese character、漢字、\ruby{漢}{かん}\ruby{字}{じ}、lesson8、kanji-compound
+もじ、character、文字、\ruby{文}{も}\ruby{字}{じ}、lesson8、kanji-compound
+絵文字、emoji、絵文字、\ruby{絵}{え}\ruby{文}{も}\ruby{字}{じ}、google、kanji-compound
 しゅく、lodging / inn、宿、\ruby{宿}{しゅく}、lesson8、kanji-base
 だい、subject / topic / title、題、\ruby{題}{だい}、lesson8、kanji-base
 しゅくだい、homework、宿題、\ruby{宿}{しゅく}\ruby{題}{だい}、lesson8、kanji-compound
 しつ、quality / nature / inquire、質、\ruby{質}{しつ}、lesson8、kanji-base
 もん、question / problem / inquiry、問、\ruby{問}{もん}、lesson8、kanji-base
+もんだい、problem / question / issue、問題、\ruby{問}{もん}\ruby{題}{だい}、lesson8、kanji-compound
 わす、forget、忘、\ruby{忘}{わす}、lesson8、kanji-base
 う、receive / accept / undergo、受、\ruby{受}{う}、lesson8、kanji-base
 じゅ、grant / give / teach、授、\ruby{授}{じゅ}、lesson8、kanji-base
 ぎょう、work / occupation / business / industry、業、\ruby{業}{ぎょう}、lesson8、kanji-base
 じゅぎょう、class、授業、\ruby{授}{じゅ}\ruby{業}{ぎょう}、lesson8、kanji-compound
 そつ、graduate / come to an end、卒、\ruby{卒}{そつ}、lesson8、kanji-base
-#そつぎょう、graduation、卒業、\ruby{卒}{そつ}\ruby{業}{ぎょう}、lesson8、kanji-compound
+#そつぎょう、graduation、卒業、\ruby{卒}{そつ}\ruby{業}{ぎょう}、lesson8/duplicate、kanji-compound
 おそ、late / slow、遅、\ruby{遅}{おそ}、lesson8、 kanji-base
 おそい、late / slow、遅、\ruby{遅}{おそ}い、lesson8、 kanji-compound
 びょう、sickness / illness、病、\ruby{病}{びょう}、lesson8、kanji-base
 いん、institution、院、\ruby{院}{いん}、lesson8、kanji-base
 だいがくいん、graduate student、大学院生、\ruby{大}{だい}\ruby{学}{がく}\ruby{院}{いん}\ruby{生}{せい}、lesson8, kanji-compound
+さくぶん、essay、作文、\ruby{作}{さく}\ruby{文}{ぶん}、lesson8、kanji-compound
 
