@@ -277,7 +277,7 @@ def do_latex():
 
 def summary():
 	if len(duplicate_entries):
-		print("duplicate entries:")
+		print("found " + str(len(duplicate_entries)) + " duplicate entries:")
 		for entry in duplicate_entries:
 			print(str(entry))
 	else:
@@ -293,24 +293,26 @@ modes = [ "anki", "latex" ]
 anki_output_file = "日本語.apkg"
 latex_output_file = "日本語.tex"
 
-#order = "natural"
-order = "hiragana-alphabetical"
+order = "natural"
+#order = "hiragana-alphabetical"
 #order = "lesson"
 
+NUMBER_OF_LINES_PER_TABULAR = 32
 #NUMBER_OF_LINES_PER_TABULAR = 36
-NUMBER_OF_LINES_PER_TABULAR = 43
+#NUMBER_OF_LINES_PER_TABULAR = 43
 
 # -----------------------------------
 
 parse_csv_file()
-deduplicate()
+
+#deduplicate()
 #filter_include_lessons(["lesson8.1", "lesson8.3"])
 #filter_include_lessons(["lesson7", "lesson8"])
 #filter_include_lessons(["lesson0", "lesson1"])
 #filter_include_lessons(["lesson7"])
-#filter_include_parts_of_speech(["kanji-base"])
+filter_include_parts_of_speech(["kanji-base"])
 #filter_include_parts_of_speech(["verb"])
-filter_exclude_parts_of_speech(["kanji-base", "expression", "title", "name", "place", "field_of_study"])
+#filter_exclude_parts_of_speech(["kanji-base", "expression", "title", "name", "place", "field_of_study"])
 sort_by(order)
 for mode in modes:
 	if "anki"==mode:
