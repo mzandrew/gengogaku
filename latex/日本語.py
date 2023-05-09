@@ -304,7 +304,6 @@ NUMBER_OF_LINES_PER_TABULAR = 32
 # -----------------------------------
 
 parse_csv_file()
-
 #deduplicate()
 #filter_include_lessons(["lesson8.1", "lesson8.3"])
 #filter_include_lessons(["lesson7", "lesson8"])
@@ -319,5 +318,5 @@ for mode in modes:
 		do_anki()
 	if "latex"==mode:
 		do_latex()
-summary()
+#summary()
 
