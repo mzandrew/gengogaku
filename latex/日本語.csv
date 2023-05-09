@@ -1,37 +1,30 @@
 #hiragana、English、kanji、kanji (furigana / latex)、lesson # first appeared in、part of speech
-#いく、to go、行く、\ruby{行}{い}く、
-#くる、to come、来る、、
-#(お)ひる、lunch、、
 
-よむ、to read、読む、\ruby{読}{よ}む、、verb-
-きく、to listen、聞く、\ruby{聞}{き}く、、verb-
-のむ、to drink、飲む、\ruby{飲}{の}む、、verb-
-
-いち、one、、\ruby{}{}、lesson0、number
-に、two、、\ruby{}{}、lesson0、number
-さん、three、、\ruby{}{}、lesson0、number
-よん、four、、\ruby{}{}、lesson0、number
-し、four、、\ruby{}{}、lesson0、number
-ご、five、、\ruby{}{}、lesson0、number
-ろく、six、、\ruby{}{}、lesson0、number
-なな、seven、、\ruby{}{}、lesson0、number
-しち、seven、、\ruby{}{}、lesson0、number
-はち、eight、、\ruby{}{}、lesson0、number
-きゅう、nine、、\ruby{}{}、lesson0、number
-じゅう、ten、、\ruby{}{}、lesson0、number
+#いち、one、、\ruby{}{}、lesson0、number
+#に、two、、\ruby{}{}、lesson0、number
+#さん、three、、\ruby{}{}、lesson0、number
+#よん、four、、\ruby{}{}、lesson0、number
+#し、four、、\ruby{}{}、lesson0、number
+#ご、five、、\ruby{}{}、lesson0、number
+#ろく、six、、\ruby{}{}、lesson0、number
+#なな、seven、、\ruby{}{}、lesson0、number
+#しち、seven、、\ruby{}{}、lesson0、number
+#はち、eight、、\ruby{}{}、lesson0、number
+#きゅう、nine、、\ruby{}{}、lesson0、number
+#じゅう、ten、、\ruby{}{}、lesson0、number
 よんじゅう、forty、、\ruby{}{}、lesson0、number
-ひゃく、one hundred、、\ruby{}{}、lesson0、number
+#ひゃく、one hundred、、\ruby{}{}、lesson0、number
 さんびゃく、three hundred、、\ruby{}{}、lesson0、number
 よんひゃく、four hundred、、\ruby{}{}、lesson0、number
 ろっぴゃく、six hundred、、\ruby{}{}、lesson0、number
-せん、one thousand、、\ruby{}{}、lesson0、number
+#せん、one thousand、、\ruby{}{}、lesson0、number
 さんぜん、three thousand、、\ruby{}{}、lesson0、number
 よんぜん、four thousand、、\ruby{}{}、lesson0、number
 はっせん、eight thousand、、\ruby{}{}、lesson0、number
-いちまん、ten thousand、、\ruby{}{}、lesson0、number
+#いちまん、ten thousand、、\ruby{}{}、lesson0、number
 
 しゅうしん、hometown、、\ruby{}{}、lesson1、noun
-わたし、I、、\ruby{}{}、lesson1、noun
+#わたし、I、、\ruby{}{}、lesson1/duplicate、noun
 ところ、place、、\ruby{}{}、lesson1、noun
 くに、country、、\ruby{}{}、lesson1、noun
 せんせい、sensei / teacher、、\ruby{}{}、lesson1、noun
@@ -51,11 +44,11 @@
 #コンピューター、computer、、\ruby{}{}、lesson1、noun
 けいえいがく、business administration、、\ruby{}{}、lesson1、field_of_study
 にほんご、Japanese (language)、日本語、\ruby{日}{に}\ruby{本}{ほん}\ruby{語}{ご}、lesson1、noun
-えいご、English (language)、、\ruby{}{}、lesson1、noun
+#えいご、English (language)、、\ruby{}{}、lesson1/duplicate、noun
 れきし、history、、\ruby{}{}、lesson1、field_of_study
 #サーフィン、surfing、、\ruby{}{}、lesson1、noun
-うみ、ocean、、\ruby{}{}、lesson1、noun
-えいが、movie、、\ruby{}{}、lesson1、noun
+#うみ、ocean、、\ruby{}{}、lesson1、noun
+えいが、movie / film、映画、\ruby{映}{えい}\ruby{画}{が}、lesson1/lesson7、kanji-compound
 ゲーム、game、、\ruby{}{}、lesson1、noun
 スポーツ、sports、、\ruby{}{}、lesson1、noun
 アニメ、anime、、\ruby{}{}、lesson1、noun
@@ -63,10 +56,10 @@
 ネット、internet、、\ruby{}{}、lesson1、noun
 おんがく、music、、\ruby{}{}、lesson1、noun
 #テニス、tennis、、\ruby{}{}、lesson1、noun
-りょうり、food / cuisine / prepared dish、料理、\ruby{料}{りょう}\ruby{理}{り}、lesson1/lesson7、noun
+りょうり、food / cuisine / prepared dish、料理、\ruby{料}{りょう}\ruby{理}{り}、lesson1/lesson7、noun/kanji-compound
 りょこう、travel / trip、、\ruby{}{}、lesson1、noun
 こちら、this person / this way、、\ruby{}{}、lesson1、noun
-ともだち、friend、友達、\ruby{友}{とも}\ruby{達}{だち}、lesson1、noun
+#ともだち、friend、友達、\ruby{友}{とも}\ruby{達}{だち}、lesson1/duplicate、noun
 #スミス、Smith、、\ruby{}{}、lesson1、name
 はわいだいがく、University of Hawaii、ハワイ大学、ハワイ\ruby{大}{だい}\ruby{学}{がく}、lesson1、name
 かんこうがく、study of tourism、、\ruby{}{}、lesson1、field_of_study
@@ -93,11 +86,11 @@
 べんり(な)、convenient / useful、、\ruby{}{}、lesson1、na-adjective
 しずか(な)、quiet、、\ruby{}{}、lesson1、na-adjective
 
-いま、now、、\ruby{}{}、lesson1、adverb
+#いま、now、、\ruby{}{}、lesson1/duplicate、adverb
 ちょっと、a little、、\ruby{}{}、lesson1、adverb
 たくさん、a lot、、\ruby{}{}、lesson1、adverb
 
-わかる、to understand / to know、、\ruby{}{}、lesson1、verb
+わかる、to understand / to know、、\ruby{}{}、lesson1、verb-
 
 じゃ、then、、\ruby{}{}、lesson1、conjunction
 
@@ -105,8 +98,8 @@
 どちら、where、、\ruby{}{}、lesson1、question
 なんねんせい、which year (in school)、、\ruby{}{}、lesson1、question
 どう、how、、\ruby{}{}、lesson1、question
-なに、what、、\ruby{}{}、lesson1、question
-なん、what、、\ruby{}{}、lesson1、question
+#なに、what、、\ruby{}{}、lesson1、question
+#なん、what、、\ruby{}{}、lesson1、question
 どんな、which / what kind of、、\ruby{}{}、lesson1、question
 
 ほっかいどう、Hokkaido、、\ruby{}{}、lesson1、place
@@ -160,39 +153,118 @@
 #バスケットバール、basketball、、\ruby{}{}、lesson1、hobby
 #バレーボール、volleyball、、\ruby{}{}、lesson1、hobby
 
+(お)みせ、store / restaurant / business、、、lesson2/lesson6、noun
+ストア、store、、、lesson2/lesson6、noun
+
+いち、1、一、\ruby{一}{いち}、lesson3、kanji-base/number
+に、2、二、\ruby{二}{に}、lesson3、kanji-base/number
+さん、3、三、\ruby{三}{さん}、lesson3、kanji-base/number
+し、４、四、\ruby{四}{し}、lesson3、kanji-base/number
+よん、４、四、\ruby{四}{よん}、lesson3、kanji-base/number
+ご、5、五、\ruby{五}{ご}、lesson3、kanji-base/number
+ろく、6、六、\ruby{六}{ろく}、lesson3、kanji-base/number
+しち、7、七、\ruby{七}{しち}、lesson3、kanji-base/number
+なな、7、七、\ruby{七}{なな}、lesson3、kanji-base/number
+はち、8、八、\ruby{八}{はち}、lesson3、kanji-base/number
+きゅう、9、九、\ruby{九}{きゅう}、lesson3、kanji-base/number
+じゅう、10、十、\ruby{十}{じゅう}、lesson3、kanji-base/number
+だい、big / great、大、\ruby{大}{だい}、lesson3、kanji-base
+がく、learn、学、\ruby{学}{がく}、lesson3、kanji-base
+せい、life / birth、生、\ruby{生}{せい}、lesson3、kanji-base
+せん、previous / ahead、先、\ruby{先}{せん}、lesson3、kanji-base
+ねん、year、年、\ruby{年}{ねん}、lesson3、kanji-base
+なん、what、何、\ruby{何}{なん}、lesson3、kanji-base/question
+なに、what、何、\ruby{何}{なに}、lesson3、kanji-base/question
+にち、day / sun、日、\ruby{日}{にち}、lesson3、kanji-base
+ほん、origin / source / main / book、本、\ruby{本}{ほん}、lesson3、kanji-base
+ひと、person、人、\ruby{人}{ひと}、lesson3/lesson5、kanji-base
+なか、inside / middle / center、中、\ruby{中}{なか}、lesson3、kanji-base
+だ、rice field、田、\ruby{田}{だ}、lesson3、kanji-base
+やま、mountain、山、\ruby{山}{やま}、lesson3、kanji-base
+ご、word / language、語、\ruby{語}{ご}、lesson3/lesson6、kanji-base
+べん、endeavor / make effort、勉、\ruby{勉}{べん}、lesson3、kanji-base
+きょう、strong、強、\ruby{強}{きょう}、lesson3、kanji-base
+べんきょう、to study、強、\ruby{勉}{べん}\ruby{強}{きょう}、lesson3/lesson7、verb-/kanji-compound
+じ、time / hour、時、\ruby{時}{じ}、lesson3、kanji-base
+
 ことし、this year、今年、\ruby{今年}{ことし}、lesson4、time
 
+がつ、moon、月、\ruby{月}{がつ}、lesson4、kanji-base
+げつ、moon、月、\ruby{月}{げつ}、lesson4、kanji-base
+か、fire、火、\ruby{火}{か}、lesson4、kanji-base
+すい、water、水、\ruby{水}{すい}、lesson4、kanji-base
+みず、water、水、\ruby{水}{みず}、lesson4、kanji-base
+もく、tree、木、\ruby{木}{もく}、lesson4、kanji-base
+きん、gold / money、金、\ruby{金}{きん}、lesson4、kanji-base
+ど、soil / land、土、\ruby{土}{ど}、lesson4、kanji-base
+よ、day of the week、曜、\ruby{曜}{よ}、lesson4、kanji-base
+いま、now / present、今、\ruby{今}{いま}、lesson4、kanji-base
+こん、now / present、今、\ruby{今}{こん}、lesson4、kanji-base
+ひゃく、hundred、百、\ruby{百}{ひゃく}、lesson4、kanji-base/number
+せん、thousand、千、\ruby{千}{せん}、lesson4、kanji-base/number
+まん、ten thousand、万、\ruby{万}{まん}、lesson4、kanji-base/number
+えん、yen、円、\ruby{円}{えん}、lesson4、kanji-base
+てら、temple、寺、\ruby{寺}{てら}、lesson4、kanji-base
+じ、time / hour、時、\ruby{時}{じ}、lesson4、kanji-base
+とき、time / hour、時、\ruby{時}{とき}、lesson4、kanji-base
+はん、half、半、\ruby{半}{はん}、lesson4、kanji-base
+ふん、minute / portion / part、分、\ruby{分}{ふん}、lesson4、kanji-base
+ぶん、minute / portion / part、分、\ruby{分}{ぶん}、lesson4、kanji-base
+ぷん、minute / portion / part、分、\ruby{分}{ぷん}、lesson4、kanji-base
+め、eye、目、\ruby{目}{め}、lesson4、kanji-base
+み、look / see、見、\ruby{見}{み}、lesson4、kanji-base
+い、go、行、\ruby{行}{い}、lesson4、kanji-base
+こう、go、行、\ruby{行}{こう}、lesson4、kanji-base
+いく、to go、行く、\ruby{行}{い}く、lesson4、verb-/kanji-base
+らい、coming / next、来、\ruby{来}{らい}、lesson4、kanji-base
+く、come、来、\ruby{来}{く}、lesson4、kanji-base
+こ、come、来、\ruby{来}{こ}、lesson4、kanji-base
+き、come、来、\ruby{来}{き}、lesson4、kanji-base
+くる、to come、来る、\ruby{来}{く}る、lesson4、verb-/kanji-compound
+きょ、pass / elapse / go away、去、\ruby{去}{きょ}、lesson4、kanji-base
+な、name、名、\ruby{名}{な}、lesson4、kanji-base
+まえ、front / before、前、\ruby{前}{まえ}、lesson4、kanji-base
+かん、interval / between、間、\ruby{間}{かん}、lesson4、kanji-base
+た、eat / food、食、\ruby{食}{た}、lesson4/lesson6、kanji-base
+たべる、to eat、食べる、\ruby{食}{た}べる、lesson4、verb-/kanji-compound
+の、drink、飲、\ruby{飲}{の}、lesson4/lesson6、kanji-base
+のむ、to drink、飲む、\ruby{飲}{の}む、lesson4、verb-/kanji-compound
+あか、bright / light / next / following、明、\ruby{明}{あか}、lesson4/lesson7、kanji-base
+あした、tomorrow、明日、\ruby{明日}{あした}、lesson4/lesson7、kanji-compound
+くるま、vehicle / car / wheel、車、\ruby{車}{くるま}、lesson4/lesson6、kanji-base
+でんしゃ、train、電車、\ruby{電}{でん}\ruby{車}{しゃ}、lesson4、kanji-compound
+
 しゃしん、photo、、\ruby{}{}、lesson5、noun
-はは、one's own mother、、\ruby{}{}、lesson5、noun
+#はは、one's own mother、母、\ruby{母}{はは}、lesson5/duplicate、noun
 おかあさん、mother、、\ruby{}{}、lesson5、noun
 このあいだ、the other day、、\ruby{}{}、lesson5、noun
 こないだ、the other day (casual)、、\ruby{}{}、lesson5、noun
 そのとき、at that time、、\ruby{}{}、lesson5、noun
-かぞく、family、、\ruby{}{}、lesson5、noun
-うち、house / home / family、、\ruby{}{}、lesson5、noun
+かぞく、family、家族、\ruby{家}{か}\ruby{族}{ぞく}、lesson5、noun
+うち、house / home / family、家、\ruby{家}{うち}、lesson5、noun
 そぼ、one's own grandmother、、\ruby{}{}、lesson5、noun
 おばあさん、grandmother、、\ruby{}{}、lesson5、noun
 そふ、one's own grandfather、、\ruby{}{}、lesson5、noun
 おじいさん、grandfather、、\ruby{}{}、lesson5、noun
 きょうだい、siblings、兄弟、\ruby{兄}{きょう}\ruby{弟}{だい}、lesson5、noun/kanji-compound
-あね、one's own older sister、、\ruby{}{}、lesson5、noun
+#あね、one's own older sister、姉、\ruby{姉}{あね}、lesson5/duplicate、noun
 おねえさん、older sister、、\ruby{}{}、lesson5、noun
-いもうと、one's own younger sister、、\ruby{}{}、lesson5、noun
+#いもうと、one's own younger sister、妹、\ruby{妹}{いもうと}、lesson5/duplicate、noun
 いもうとさん、younger sister、、\ruby{}{}、lesson5、noun
-おとうと、one's own younger brother、、\ruby{}{}、lesson5、noun
+#おとうと、one's own younger brother、弟、\ruby{弟}{おとうと}、lesson5/duplicate、noun
 おとうとさん、younger brother、、\ruby{}{}、lesson5、noun
 ひとりっこ、only child、、\ruby{}{}、lesson5、noun
-ちち、one's own father、、\ruby{}{}、lesson5、noun
+#ちち、one's own father、父、\ruby{父}{ちち}、lesson5/duplicate、noun
 おとうさん、father、、\ruby{}{}、lesson5、noun
-ひと、person、、\ruby{}{}、lesson5、noun
-あに、one's own older brother、、\ruby{}{}、lesson5、noun
+#ひと、person、人、\ruby{人}{ひと}、lesson5/duplicate、noun
+#あに、one's own older brother、兄、\ruby{兄}{あに}、lesson5/duplicate、noun
 おにいさん、older brother、、\ruby{}{}、lesson5、noun
 #バスケット、basketball、、\ruby{}{}、lesson5、noun
 #イケメン、handsome (slang)、、\ruby{}{}、lesson5、noun
-いぬ、dog、、\ruby{}{}、lesson5、noun
+#いぬ、dog、犬、\ruby{犬}{いぬ}、lesson5/duplicate、noun
 ねこ、cat、、\ruby{}{}、lesson5、noun
 とり、bird、、\ruby{}{}、lesson5、noun
-さかな、fish、魚、\ruby{魚}{さかな}、lesson5/lesson7、noun
+さかな、fish、魚、\ruby{魚}{さかな}、lesson5/lesson7、noun/kanji-base
 チワワ、chihuahua、、\ruby{}{}、lesson5、noun
 どうぶつ、animal、、\ruby{}{}、lesson5、noun
 とし、old、、\ruby{}{}、lesson5、noun
@@ -200,8 +272,8 @@
 かいしゃ、company、、\ruby{}{}、lesson5、noun
 りょう、portion / amount、量、\ruby{量}{りょう}、lesson5/lesson7、noun
 #プログラミング、programming、、\ruby{}{}、lesson5、noun
-うえの、older of two、、\ruby{}{}、lesson5、noun
-したの、younger of two、、\ruby{}{}、lesson5、noun
+うえの、older of two、上の、\ruby{上}{うえ}の、lesson5、noun
+したの、younger of two、下の、\ruby{下}{した}の、lesson5、noun
 しょうがくせい、elementary school student、、\ruby{}{}、lesson5、noun
 しょうがっこう、elementary school、、\ruby{}{}、lesson5、noun
 ちゅうがく、middle school、、\ruby{}{}、lesson5、noun
@@ -214,7 +286,7 @@
 むすこ、one's own son、、\ruby{}{}、lesson5、noun
 むすこさん、son、、\ruby{}{}、lesson5、noun
 けっこんしき、wedding ceremony、、\ruby{}{}、lesson5、noun
-こうこう、high school、、\ruby{}{}、lesson5、noun
+こうこう、high school、高校、\ruby{高校}{こうこう}、lesson5、noun
 こうこうせい、high school student、、\ruby{}{}、lesson5、noun
 しんせき、relatives、、\ruby{}{}、lesson5、noun
 こども、child / children、、\ruby{}{}、lesson5、noun
@@ -242,7 +314,7 @@
 かみがながい、long hair、、\ruby{}{}、lesson5、i-adjective
 かみがみじかい、short hair、、\ruby{}{}、lesson5、i-adjective
 かわいい、cute、、\ruby{}{}、lesson5、i-adjective
-ふるい、old、、\ruby{}{}、lesson5、i-adjective
+#ふるい、old、、\ruby{}{}、lesson5、i-adjective
 
 にぎやか(な)、lively / busy、、\ruby{}{}、lesson5、na-adjective
 イケメン(な)、handsome (slang)、、\ruby{}{}、lesson5、na-adjective
@@ -253,13 +325,13 @@
 まだ、still、、\ruby{}{}、lesson5、adverb
 
 まつ、to wait、待つ、\ruby{待}{ま}つ、lesson5、verb-
-すむ、to live、、\ruby{}{}、lesson5、verb-
+#すむ、to live、、\ruby{}{}、lesson5/duplicate、verb-
 いる、to have (siblings)、、\ruby{}{}、lesson5、verb-
 にる、to resemble、、\ruby{}{}、lesson5、verb-
 やる、to do / play a sport、、\ruby{}{}、lesson5、verb-
 かう、to have (a pet)、、\ruby{}{}、lesson5、verb-
 けっこんする、to get married、、\ruby{}{}、lesson5、verb-
-りゅうがくする、to study abroat、、\ruby{}{}、lesson5、verb-
+りゅうがくする、to study abroad、、\ruby{}{}、lesson5、verb-
 #ホームステイする、to homestay、、\ruby{}{}、lesson5、verb-
 ならう、to learn / take lessons、、\ruby{}{}、lesson5、verb-
 はたらく、to work、、\ruby{}{}、lesson5、verb-
@@ -286,16 +358,49 @@
 ぎりの、in-law、、\ruby{}{}、lesson5、additional
 そふぼ、grandparents、、\ruby{}{}、lesson5、additional
 
+うえ、above / on / up / superior、上、\ruby{上}{うえ}、lesson5、kanji-base
+した、below / under / down / inferior、下、\ruby{下}{した}、lesson5、kanji-base
+こ、child、子、\ruby{子}{こ}、lesson5、kanji-base
+ちから、power / strength、力、\ruby{力}{ちから}、lesson5、kanji-base
+おとこ、man / male、男、\ruby{男}{おとこ}、lesson5、kanji-base
+おんな、woman / female、女、\ruby{女}{おんな}、lesson5、kanji-base
+す、like / be fond of、好、\ruby{好}{す}、lesson5、kanji-base
+ちち、father、父、\ruby{父}{ちち}、lesson5、kanji-base
+はは、mother、母、\ruby{母}{はは}、lesson5、kanji-base
+あに、older brother、兄、\ruby{兄}{あに}、lesson5、kanji-base
+あね、older sister、姉、\ruby{姉}{あね}、lesson5、kanji-base
+いもうと、younger sister、妹、\ruby{妹}{いもうと}、lesson5、kanji-base
+おとうと、younger brother、弟、\ruby{弟}{おとうと}、lesson5、kanji-base
+わたし、I / me、私、\ruby{私}{わたし}、lesson5、kanji-base
+しゅう、small / little、小、\ruby{小}{しゅう}、lesson5、kanji-base
+とも、friend、友、\ruby{友}{とも}、lesson5、kanji-base
+ともだち、friend、友だち、\ruby{友}{とも}だち、lesson5、kanji-compound
+ま、wait、待、\ruby{待}{ま}、lesson5、kanji-base
+す、reside / live、住、\ruby{住}{す}、lesson5、kanji-base
+すむ、to live、住む、\ruby{住}{す}む、lesson5、verb-/kanji-base
+て、hand、手、\ruby{手}{て}、lesson5、kanji-base
+こう、school、校、\ruby{校}{こう}、lesson5、kanji-base
+こう、high / expensive、高、\ruby{高}{こう}、lesson5、kanji-base
+たか、high / expensive、高、\ruby{高}{たか}、lesson5、kanji-base
+か、house / home、家、\ruby{家}{か}、lesson5、kanji-base
+ぞく、family / clan、族、\ruby{族}{ぞく}、lesson5、kanji-base
+し、know / be aware、知、\ruby{知}{し}、lesson5、kanji-base
+いぬ、dog、犬、\ruby{犬}{いぬ}、lesson5、kanji-base
+りゅう、stay、留、\ruby{留}{りゅう}、lesson5、kanji-base
+むす、to tie / to link / to conclude、結、\ruby{結}{むす}、lesson5、kanji-base
+こん、marriage、婚、\ruby{婚}{こん}、lesson5、kanji-base
+けっこん、to get married、結婚、\ruby{結婚}{けっこん}、lesson5、kanji-compound
+
 よてい、previous plans / prior arrangement、、\ruby{}{}、lesson6、noun
 ばん、night、、\ruby{}{}、lesson6、noun
-よる、night、、\ruby{}{}、lesson6、noun
+よる、evening、、\ruby{}{}、lesson6、noun
 こんど、next time、、\ruby{}{}、lesson6、noun
 #ハワイかい、Hawaii Kai、、\ruby{}{}、lesson6、noun
-くるま、car / automobile、、\ruby{}{}、lesson6、noun
+#くるま、car / automobile、、\ruby{}{}、lesson6/duplicate、noun
 じゅうしょ、address of residence、、\ruby{}{}、lesson6、noun
 でんわばんごう、telephone number、、\ruby{}{}、lesson6、noun
-ごぜん、A.M.、、\ruby{}{}、lesson6、noun
-ごご、P.M. / afternoon、午後、\ruby{午}{ご}\ruby{後}{ご}、lesson6/lesson8.1、noun
+ごぜん、morning / A.M.、午前、\ruby{午}{ご}\ruby{前}{ぜん}、lesson6、noun/kanji-compound
+ごご、afternoon / P.M.、午後、\ruby{午}{ご}\ruby{後}{ご}、lesson6/lesson8.1、noun
 #ポットラック、potluck、、\ruby{}{}、lesson6、noun
 もちより、potluck、、\ruby{}{}、lesson6、noun
 #サラダ、salad、、\ruby{}{}、lesson6、noun
@@ -303,7 +408,7 @@
 ほかのひと、other people / someone else、、\ruby{}{}、lesson6、noun
 #ソーダ、soda、、\ruby{}{}、lesson6、noun
 #ジュース、juice、、\ruby{}{}、lesson6、noun
-みず、water、、\ruby{}{}、lesson6、noun
+#みず、water、、\ruby{}{}、lesson6/duplicate、noun
 #デザート、dessert、、\ruby{}{}、lesson6、noun
 #プレゼント、present、、\ruby{}{}、lesson6、noun
 #ギフトカード、gift card、、\ruby{}{}、lesson6、noun
@@ -325,25 +430,25 @@
 
 でかける、to go out、出かける、\ruby{出}{で}かける、lesson6/lesson8、kanji-compound
 かいものにでかける、to go shopping、、\ruby{}{}、lesson6、expression
-さそう、to invite、、\ruby{}{}、lesson6、verb
-れんらくする、to contact someone、、\ruby{}{}、lesson6、verb
-はじ、to start、、\ruby{}{}、lesson6、verb
-おわる、to finish、、\ruby{}{}、lesson6、verb
-#メールする、to e-mail、、\ruby{}{}、lesson6、verb
-でんわする、to call、、\ruby{}{}、lesson6、verb
-おしえる、to teach / inform / tell、、\ruby{}{}、lesson6、verb
-あるく、to walk、、\ruby{}{}、lesson6、verb
+さそう、to invite、、\ruby{}{}、lesson6、verb-
+れんらくする、to contact someone、、\ruby{}{}、lesson6、verb-
+はじ、to start、、\ruby{}{}、lesson6、verb-
+おわる、to finish、、\ruby{}{}、lesson6、verb-
+#メールする、to e-mail、、\ruby{}{}、lesson6、verb-
+でんわする、to call、、\ruby{}{}、lesson6、verb-
+おしえる、to teach / inform / tell、教える、\ruby{教}{おし}える、lesson6、verb-
+#あるく、to walk、、\ruby{}{}、lesson6、verb-
 あるいて、on foot、、\ruby{}{}、lesson6、expression
 かかる、to [ take / require ] [ time / money ]、、\ruby{}{}、lesson6/lesson8.4、verb-I
-もっていく、to bring something somewhere、、\ruby{}{}、lesson6、verb
-もってくる、to bring something here、、\ruby{}{}、lesson6、verb
-つれていく、to bring someone somewhere、、\ruby{}{}、lesson6、verb
-つれてくる、to bring someone here、、\ruby{}{}、lesson6、verb
-つくる、to make / prepare、、\ruby{}{}、lesson6、verb
-たのむ、to order something / to request、、\ruby{}{}、lesson6、verb
-てつだう、to help、、\ruby{}{}、lesson6、verb
-はらう、to pay、、\ruby{}{}、lesson6、verb
-のめる、to be able to drink、、\ruby{}{}、lesson6、verb
+もっていく、to bring something somewhere、、\ruby{}{}、lesson6、verb-
+もってくる、to bring something here、、\ruby{}{}、lesson6、verb-
+つれていく、to bring someone somewhere、、\ruby{}{}、lesson6、verb-
+つれてくる、to bring someone here、、\ruby{}{}、lesson6、verb-
+#つくる、to make / produce / prepare (food)、作る、\ruby{作}{つく}る、lesson6/duplicate、verb-/kanji-compound
+たのむ、to order something / to request、、\ruby{}{}、lesson6、verb-
+てつだう、to help、手つだう、\ruby{手}{て}つだう、lesson6、verb-
+はらう、to pay、、\ruby{}{}、lesson6、verb-
+のめる、to be able to drink、、\ruby{}{}、lesson6、verb-
 あける、to open something、開ける、\ruby{開}{あ}ける、lesson6/lesson8.3、verb-II
 
 いまのところ、so far、、\ruby{}{}、lesson6、expression
@@ -354,6 +459,49 @@
 ぜんぶで、all together、、\ruby{}{}、lesson6、expression
 ＿ぐらい、about ＿、、\ruby{}{}、lesson6、expression
 あとで、later on、後で、\ruby{後}{あと}で、lesson6/lesson8.1、expression
+
+かわ、stream / river、川、\ruby{川}{かわ}、lesson6、kanji-base
+#、vehicle / car / wheel、車、\ruby{車}{}、lesson6/duplicate、kanji-base
+#、eat / food、食、\ruby{食}{}、lesson6/duplicate、kanji-base
+#、drink、飲、\ruby{飲}{}、lesson6/duplicate、kanji-base
+い、say / word、言、\ruby{言}{い}、lesson6、kanji-base
+はな、talk / tale、話、\ruby{話}{はな}、lesson6、kanji-base
+はなす、to talk、話す、\ruby{話}{はな}す、lesson6、verb-/kanji-compound
+#、word / language、語、\ruby{語}{}、lesson6/duplicate、kanji-base
+よ、read、読、\ruby{読}{よ}、lesson6、kanji-base
+よむ、to read、読む、\ruby{読}{よ}む、lesson6、verb-/kanji-compound
+かい、shellfish / seashell、貝、\ruby{貝}{かい}、lesson6、kanji-base
+か、buy、買、\ruby{買}{か}、lesson6、kanji-base
+かう、to buy、買う、\ruby{買}{か}う、lesson6、verb-/kanji-compound
+かいもの、shopping、買い物、\ruby{買}{か}い\ruby{物}{もの}、lesson6、noun/kanji-compound
+こころ、heart / mind / spirit、心、\ruby{心}{こころ}、lesson6、kanji-base
+おも、think、思、\ruby{思}{おも}、lesson6、kanji-base
+くち、mouth、口、\ruby{口}{くち}、lesson6、kanji-base
+みみ、ear、耳、\ruby{耳}{みみ}、lesson6、kanji-base
+もん、gate、門、\ruby{門}{もん}、lesson6、kanji-base
+き、hear / listen / ask、聞、\ruby{聞}{き}、lesson6、kanji-base
+きく、to listen、聞く、\ruby{聞}{き}く、lesson6、verb-/kanji-compound
+かん、interval / space、間、\ruby{間}{かん}、lesson6、kanji-base
+じかん、duration、時間、\ruby{時}{じ}\ruby{間}{かん}、lesson6、kanji-compound
+つく、make / production、作、\ruby{作}{つく}、lesson6、kanji-base
+#つくる、to make / produce / prepare (food)、作る、\ruby{作}{つく}る、lesson6、verb-/kanji-compound
+えい、distinguishd / outstanding / England、英、\ruby{英}{えい}、lesson6、kanji-base # one of these things is not like the other
+えいご、English (language)、英語、\ruby{英}{えい}\ruby{語}{ご}、lesson6、kanji-compound
+も、hold / have、持、\ruby{持}{も}、lesson6、kanji-base
+おと、behind / back / later、後、\ruby{後}{おと}、lesson6、kanji-base
+ご、behind / back / later、後、\ruby{後}{ご}、lesson6、kanji-base
+#ごぜん、morning、午前、\ruby{午}{ご}\ruby{前}{ぜん}、lesson6/duplicate、kanji-compound
+ご、noon、午、\ruby{午}{ご}、lesson6、kanji-base
+#ごご、afternoon、午後、\ruby{午後}{ごご}、lesson6、kanji-base
+でん、electricity、電、\ruby{電}{でん}、lesson6、kanji-base
+おし、teach / doctrine、教、\ruby{教}{おし}、lesson6、kanji-base
+か、write / book、書、\ruby{書}{か}、lesson6、kanji-base
+かく、to write、書く、\ruby{書}{か}く、lesson6、verb-/kanji-compound
+ばん、number / order in a series、番、\ruby{番}{ばん}、lesson6、kanji-base
+ごう、number / item、号、\ruby{号}{ごう}、lesson6、kanji-base
+つ、accompany / take along、連、\ruby{連}{つ}、lesson6、kanji-base
+ある、walk / step、歩、\ruby{歩}{ある}、lesson6、kanji-base
+あるく、to walk、歩く、\ruby{歩}{ある}く、lesson6、verb-/kanji-compound
 
 チフビばんぐみ、TV program、テレビ番組、テレビ\ruby{番}{ばん}\ruby{組}{ぐみ}、lesson7、noun
 ぶたい、stage / theatrical play、舞台、\ruby{舞}{ぶ}\ruby{台}{たい}、lesson7、noun
@@ -444,7 +592,41 @@
 メニューがおおい、has a large menu、メニューが多い、メニューが\ruby{多}{おお}い、lesson7.5、expression
 サービスがいい、has good service、、\ruby{}{}、lesson7.5、expression
 
-けさ、this morning、今朝、\ruby{今}{け}\ruby{朝}{さ}、lesson8.1、noun
+やす、rest / day off、休、\ruby{休}{やす}、lesson7、kanji-base
+しゅう、week、週、\ruby{週}{しゅう}、lesson7、kanji-base
+まつ、end / close、末、\ruby{末}{まつ}、lesson7、kanji-base
+まい、every / each、毎、\ruby{毎}{まい}、lesson7、kanji-base
+うみ、seashore / ocean、海、\ruby{海}{うみ}、lesson7、kanji-base
+#、、勉、\ruby{勉}{}、lesson7/duplicate、kanji-base
+#、、強、\ruby{強}{}、lesson7/duplicate、kanji-base
+#、bright / light / next / following、明、\ruby{明}{}、lesson7/duplicate、kanji-base
+あさ、morning、朝、\ruby{朝}{あさ}、lesson7、kanji-base
+あさごはん、breakfast、朝ごはん、\ruby{朝}{あさ}ごはん、lesson7、kanji-compound
+ひる、noon / midday / daytime、昼、\ruby{昼}{ひる}、lesson7、kanji-base
+ひるごはん、lunch、昼ごはん、\ruby{昼}{ひる}ごはん、lesson7、kanji-compound
+おひるごはん、lunch、昼ごはん、お\ruby{昼}{ひる}ごはん、lesson7、kanji-compound
+ばん、evening / night、晩、\ruby{晩}{ばん}、lesson7、kanji-base
+ばんごはん、dinner、晩ごはん、\ruby{晩}{ばん}ごはん、lesson7、kanji-compound
+あ、meet / meeting / gathering、会、\ruby{会}{あ}、lesson7、kanji-base
+あう、to meet、会う、\ruby{会}{あ}う、lesson7、verb-/kanji-compound
+えい、reflect / project、映、\ruby{映}{えい}、lesson7、kanji-base
+が、picture / drawing / painting / stroke of kanji、画、\ruby{画}{が}、lesson7、kanji-base
+#えいが、movie / film、映画、\ruby{映}{えい}\ruby{画}{が}、lesson1/lesson7/duplicate、kanji-compound
+あたら、new、新、\ruby{新}{あたら}、lesson7、kanji-base
+あたらい、new、新い、\ruby{新}{あたら}い、lesson7、i-adjective/kanji-compound
+ふる、old、古、\ruby{古}{ふる}、lesson7、kanji-base
+ふるい、old、古い、\ruby{古}{ふる}い、lesson5/lesson7、i-adjective/kanji-compound
+やす、cheap / peaceful、安、\ruby{安}{やす}、lesson7、kanji-base
+やすい、cheap、安い、\ruby{安}{やす}い、lesson7、i-adjective/kanji-compound
+りょう、fee / materials、料、\ruby{料}{りょう}、lesson7、kanji-base
+り、reason / principle、理、\ruby{理}{り}、lesson7、kanji-base
+もん、thing、物、\ruby{物}{もん}、lesson7、kanji-base
+よる、night、夜、\ruby{夜}{よる}、lesson7、kanji-base
+や、roof / house / shop、屋、\ruby{屋}{や}、lesson7、kanji-base
+#さかな、fish、魚、\ruby{魚}{さかな}、lesson7、kanji-base
+にく、meat、肉、\ruby{肉}{にく}、lesson7、kanji-base
+
+けさ、this morning、今朝、\ruby{今}{け}\ruby{朝}{さ}、lesson7/lesson8.1、noun
 しつもん、question、質問、\ruby{質}{しつ}\ruby{問}{もん}、lesson8.1、noun/kanji-compound
 #オフイス、office、、、lesson8、noun
 せいせき、grades、成績、\ruby{成}{せい}\ruby{績}{せき}、lesson8.1、noun
@@ -468,7 +650,7 @@
 じゅうたい、traffic jam / congestion、渋滞、\ruby{渋}{じゅう}\ruby{滞}{たい}、lesson8.4、noun
 
 め、eye、目、\ruby{目}{め}、lesson8、noun
-みみ、ear、耳、\ruby{耳}{みみ}、lesson8、noun
+#みみ、ear、耳、\ruby{耳}{みみ}、lesson8、noun
 はな、nose、鼻、\ruby{鼻}{はな}、lesson8、noun
 くび、neck、首、\ruby{首}{くび}、lesson8、noun
 くち、mouth、口、\ruby{口}{くち}、lesson8、noun
@@ -504,7 +686,7 @@
 #あける、to open something、開ける、\ruby{開}{あ}ける、lesson8.3、verb-II
 しめる、to close something、閉める、\ruby{閉}{し}める、lesson8.3、verb-II
 つかう、to use、使う、\ruby{使}{つか}う、lesson8.3、verb-I/kanji-compound
-やすむ、to rest / miss class / miss work、休む、\ruby{休}{やす}む、lesson8.4、verb-I
+やすむ、to rest / miss class / miss work、休む、\ruby{休}{やす}む、lesson7/lesson8.4、verb-I/kanji-compound
 #かかる、to take / require time、、\ruby{}{}、lesson8.4、verb-I
 しらせる、to notify / inform、知らせる、\ruby{知}{し}らせる、lesson8.4、verb-II
 こわれる、to break down、、\ruby{}{}、lesson8.4、verb-II
@@ -514,8 +696,8 @@
 #あとで、later on、後で、\ruby{後}{あと}で、lesson8.1、expression
 びょういんにいく、to go to a clinic / hospital、病院に行く、\ruby{病}{びょう}\ruby{院}{いん}に\ruby{行}{い}く、lesson8.1、expression
 いしゃにいく、to go to the doctor、医者に行く、\ruby{医}{い}\ruby{者}{しゃ}に\ruby{行}{い}く、lesson8.1、expression
-おだいじに、take care / get well、お大事に、お\ruby{大}{だい}\ruby{事}{じ}に、lesson8.1, expression
-ぐあいがわるい、feel sick / ill / not feeling well、具合が悪い、\ruby{具}{ぐ}\ruby{合}{あい}が\ruby{悪}{わる}い、lesson8, expression
+おだいじに、take care / get well、お大事に、お\ruby{大}{だい}\ruby{事}{じ}に、lesson8.1、expression
+ぐあいがわるい、feel sick / ill / not feeling well、具合が悪い、\ruby{具}{ぐ}\ruby{合}{あい}が\ruby{悪}{わる}い、lesson8、expression
 きぶんがわるい、feel nauseous、、\ruby{}{}、lesson8、expression
 かぜをひいた、caught a cold、、\ruby{}{}、lesson8、expression
 ねつがする、have a fever、熱がする、\ruby{熱}{ねつ}がする、lesson8、expression
@@ -526,8 +708,8 @@
 こしがいたい、have lower back pain、、\ruby{}{}、lesson8、expression
 せきがでる、have a cough、、\ruby{}{}、lesson8、expression
 アレルギーがでた、have an allergy / allergic reaction、、\ruby{}{}、lesson8、expression
-ごめん、sorry (casual)、ごめん、、lesson8, other
-わるい、sorry (casual)、悪い、\ruby{悪}{わる}い、lesson8, other
+ごめん、sorry (casual)、ごめん、、lesson8、other
+わるい、sorry (casual)、悪い、\ruby{悪}{わる}い、lesson8、other
 
 げん、beginning / origin、元、\ruby{元}{げん}、lesson8、kanji-base
 き、spirit / mind / air / atmosphere、気、\ruby{気}{き}、lesson8、kanji-base
@@ -535,9 +717,9 @@
 はや、early / quick、早、\ruby{早}{はや}、lesson8、kanji-base
 はやい、early / quick、早い、\ruby{早}{はや}い、lesson8、kanji-compound
 で、go out / come out / leave、出、\ruby{出}{で}、lesson8、kanji-base
-#でかける、to go out、出かける、\ruby{出}{で}かける、lesson8、kanji-compound
+#でかける、to go out、出かける、\ruby{出}{で}かける、lesson8、verb-/kanji-compound
 かえ、return home / go home / come home、帰、\ruby{帰}{かえ}、lesson8、kanji-base
-かえる、to return home、帰る、\ruby{帰}{かえ}る、lesson8、kanji-compound
+かえる、to return home、帰る、\ruby{帰}{かえ}る、lesson8、verb-/kanji-compound
 つか、use、使、\ruby{使}{つか}、lesson8、kanji-base
 か、borrow、借、\ruby{借}{か}、lesson8、kanji-base
 ぶん、writing / composition / literature、文、\ruby{文}{ぶん}、lesson8、kanji-base
@@ -560,10 +742,10 @@
 じゅぎょう、class、授業、\ruby{授}{じゅ}\ruby{業}{ぎょう}、lesson8、kanji-compound
 そつ、graduate / come to an end、卒、\ruby{卒}{そつ}、lesson8、kanji-base
 #そつぎょう、graduation、卒業、\ruby{卒}{そつ}\ruby{業}{ぎょう}、lesson8/duplicate、kanji-compound
-おそ、late / slow、遅、\ruby{遅}{おそ}、lesson8、 kanji-base
-おそい、late / slow、遅、\ruby{遅}{おそ}い、lesson8、 kanji-compound
+おそ、late / slow、遅、\ruby{遅}{おそ}、lesson8、kanji-base
+おそい、late / slow、遅、\ruby{遅}{おそ}い、lesson8、kanji-compound
 びょう、sickness / illness、病、\ruby{病}{びょう}、lesson8、kanji-base
 いん、institution、院、\ruby{院}{いん}、lesson8、kanji-base
-だいがくいん、graduate student、大学院生、\ruby{大}{だい}\ruby{学}{がく}\ruby{院}{いん}\ruby{生}{せい}、lesson8, kanji-compound
-さくぶん、essay、作文、\ruby{作}{さく}\ruby{文}{ぶん}、lesson8、kanji-compound
+だいがくいん、graduate student、大学院生、\ruby{大}{だい}\ruby{学}{がく}\ruby{院}{いん}\ruby{生}{せい}、lesson8、kanji-compound
+さくぶん、essay / composition、作文、\ruby{作}{さく}\ruby{文}{ぶん}、lesson8、kanji-compound
 
