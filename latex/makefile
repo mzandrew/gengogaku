@@ -1,12 +1,16 @@
-list = jpn101-jpn102-kanji.tex jpn102-grammar-notes.tex jpn102-verbs-table.tex
 
 %.pdf : %.tex
 	pdflatex $<
-
-%.tex : %.csv %.py
-	./日本語.py
+	@mv $*.aux $*.log work/
+	@mv $@ pdf/
 
 default:
-	$(MAKE) $(patsubst %.tex,%.pdf,$(list))
-	$(MAKE) 日本語.pdf
+	@mkdir -p work pdf
+	./日本語.py
+	lf *.tex
+	@mv *.apkg anki/
+	$(MAKE) $(patsubst %.tex,%.pdf,$(wildcard *.tex))
+	@mv 日本語*.tex work/
+	@#mv *.aux *.log work/
+	@#mv *.pdf pdf/
 
