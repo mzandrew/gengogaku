@@ -259,8 +259,8 @@ def do_latex():
 	print("kanji-base:"); parse_csv_file(); filter_include_parts_of_speech(["kanji-base"]); sort_by("natural"); write_latex_file("日本語.kanji-base.tex", 32, "12pt")
 	print("kanji-compound:"); parse_csv_file(); filter_include_parts_of_speech(["kanji-compound"]); sort_by("natural"); write_latex_file("日本語.kanji-compound.tex", 32, "12pt")
 	print("vocab:"); parse_csv_file(); filter_exclude_parts_of_speech(["kanji-base", "expression", "title", "name", "place", "field_of_study"]); sort_by("hiragana-alphabetical"); write_latex_file("日本語.vocab.tex", 39, "12pt")
-	print("verbs:"); parse_csv_file(); filter_include_parts_of_speech(["verb"]); sort_by("hiragana-alphabetical"); write_latex_file("日本語.verbs.tex", 39, "12pt")
-	print("everything everywhere all at once:"); parse_csv_file(); sort_by("shuffle"); write_latex_file("日本語.everything.tex", 36, "12pt")
+	print("verbs:"); parse_csv_file(); filter_include_parts_of_speech(["verb"]); filter_exclude_parts_of_speech(["adverb"]); sort_by("hiragana-alphabetical"); write_latex_file("日本語.verbs.tex", 33, "12pt")
+	print("everything everywhere all at once:"); parse_csv_file(); sort_by("shuffle"); write_latex_file("日本語.everything.tex", 38, "12pt")
 	if do_lesson_by_lesson:
 		for lesson in lessons:
 			lesson_string = "lesson" + str(lesson)
