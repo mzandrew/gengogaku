@@ -2,19 +2,18 @@
 
 # written 2023-04-14 by mza
 # based on https://github.com/kerrickstaley/genanki
-# last updated 2023-05-09 by mza
+# last updated 2023-05-10 by mza
 
 # "I'm-learning-Japanese-I-think-I'm-learning-Japanese-I-really-think-so"
 
 import re
-from random import shuffle
+import random
 import genanki
-
-entries = []
-duplicate_entries = []
 
 def parse_csv_file():
 	global entries
+	entries = []
+	duplicate_entries = []
 	line_number = 0
 	count = 0
 	with open("日本語.csv") as my_file:
@@ -104,7 +103,7 @@ def sort_by(order):
 #		for entry in entries:
 #			print(str(entry[4]) + " " + str(entry[0]))
 	elif "shuffle"==order:
-		shuffle(entries)
+		random.shuffle(entries)
 #	else:
 #		for entry in entries:
 #			print(str(entry[0]))
@@ -150,7 +149,7 @@ def setup_anki_decks():
 	global kanji_base_model
 	global vocab_deck
 	global vocab_model
-	vocab_3way_deck = genanki.Deck(2342356, 'vocab 3-way')
+	vocab_3way_deck = genanki.Deck(random.randrange(1,12345678), 'vocab 3-way')
 	vocab_3way_fields = [
 		{'name': 'kanji'},
 		{'name': 'hiragana'},
@@ -161,9 +160,9 @@ def setup_anki_decks():
 		{ 'name': 'hiragana', 'qfmt': '{{hiragana}}', 'afmt': '{{FrontSide}}<hr id="answer">{{kanji}}   <hr>{{English}}' },
 		{ 'name': 'English',  'qfmt': '{{English}}',  'afmt': '{{FrontSide}}<hr id="answer">{{kanji}}   <hr>{{hiragana}}' }
 	]
-	vocab_3way_model = genanki.Model(293487, '3-way vocab', fields=vocab_3way_fields, templates=vocab_3way_cards, css=anki_style())
+	vocab_3way_model = genanki.Model(random.randrange(1,12345678), '3-way vocab', fields=vocab_3way_fields, templates=vocab_3way_cards, css=anki_style())
 	#print(str(vocab_3way_model))
-	kanji_base_deck = genanki.Deck(6463537, 'kanji base')
+	kanji_base_deck = genanki.Deck(random.randrange(1,12345678), 'kanji base')
 	kanji_base_fields = [
 		{'name': 'kanji'},
 		{'name': 'hiragana'},
@@ -174,9 +173,9 @@ def setup_anki_decks():
 		#{ 'name': 'hiragana', 'qfmt': '{{hiragana}}', 'afmt': '{{FrontSide}}<hr id="answer">{{kanji}}   <hr>{{English}}' },
 		{ 'name': 'English',  'qfmt': '{{English}}',  'afmt': '{{FrontSide}}<hr id="answer">{{kanji}}   <hr>{{hiragana}}' }
 	]
-	kanji_base_model = genanki.Model(92929237, 'kanji base', fields=kanji_base_fields, templates=kanji_base_cards, css=anki_style())
+	kanji_base_model = genanki.Model(random.randrange(1,12345678), 'kanji base', fields=kanji_base_fields, templates=kanji_base_cards, css=anki_style())
 	#print(str(kanji_base_model))
-	vocab_deck = genanki.Deck(3563948, 'vocab')
+	vocab_deck = genanki.Deck(random.randrange(1,12345678), 'vocab')
 	vocab_fields = [
 		{'name': 'hiragana'},
 		{'name': 'English'}
@@ -185,7 +184,7 @@ def setup_anki_decks():
 		{ 'name': 'hiragana', 'qfmt': '{{hiragana}}', 'afmt': '{{FrontSide}}<hr id="answer">{{English}}' },
 		{ 'name': 'English',  'qfmt': '{{English}}',  'afmt': '{{FrontSide}}<hr id="answer">{{hiragana}}' }
 	]
-	vocab_model = genanki.Model(487293, 'vocab', fields=vocab_fields, templates=vocab_cards, css=anki_style())
+	vocab_model = genanki.Model(random.randrange(1,12345678), 'vocab', fields=vocab_fields, templates=vocab_cards, css=anki_style())
 
 def latex_header(font_size):
 	return r"""\documentclass[""" + font_size + r""",twocolumn]{extarticle}
@@ -257,10 +256,11 @@ def do_latex():
 	# allowed values of font_size in extarticle are 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt and 20pt
 	# order can be: "natural", "hiragana-alphabetical", "lesson" and "shuffle"
 	lessons = [ 0, 1, 2, 3, 4, 5, 6, 7, 8 ]
-	parse_csv_file(); print("kanji-base"); filter_include_parts_of_speech(["kanji-base"]); sort_by("natural"); write_latex_file("日本語.kanji-base.tex", 32, "12pt")
-	parse_csv_file(); print("kanji-compound"); filter_include_parts_of_speech(["kanji-compound"]); sort_by("natural"); write_latex_file("日本語.kanji-compound.tex", 32, "12pt")
-	parse_csv_file(); print("vocab"); filter_exclude_parts_of_speech(["kanji-base", "expression", "title", "name", "place", "field_of_study"]); sort_by("hiragana-alphabetical"); write_latex_file("日本語.vocab.tex", 39, "12pt")
-	parse_csv_file(); print("verbs"); filter_include_parts_of_speech(["verb"]); sort_by("hiragana-alphabetical"); write_latex_file("日本語.verbs.tex", 39, "12pt")
+	print("kanji-base:"); parse_csv_file(); filter_include_parts_of_speech(["kanji-base"]); sort_by("natural"); write_latex_file("日本語.kanji-base.tex", 32, "12pt")
+	print("kanji-compound:"); parse_csv_file(); filter_include_parts_of_speech(["kanji-compound"]); sort_by("natural"); write_latex_file("日本語.kanji-compound.tex", 32, "12pt")
+	print("vocab:"); parse_csv_file(); filter_exclude_parts_of_speech(["kanji-base", "expression", "title", "name", "place", "field_of_study"]); sort_by("hiragana-alphabetical"); write_latex_file("日本語.vocab.tex", 39, "12pt")
+	print("verbs:"); parse_csv_file(); filter_include_parts_of_speech(["verb"]); sort_by("hiragana-alphabetical"); write_latex_file("日本語.verbs.tex", 39, "12pt")
+	print("everything everywhere all at once:"); parse_csv_file(); sort_by("shuffle"); write_latex_file("日本語.everything.tex", 36, "12pt")
 	if do_lesson_by_lesson:
 		for lesson in lessons:
 			lesson_string = "lesson" + str(lesson)
@@ -278,8 +278,10 @@ def do_anki(anki_output_file):
 	vocab_3way_entries = []
 	kanji_base_entries = []
 	vocab_entries = []
+	print("anki:")
 	setup_anki_decks()
 	parse_csv_file()
+	sort_by("shuffle")
 	for hiragana, english, kanji, kanji_furigana, lesson, part_of_speech in entries:
 		my_fields = [ hiragana, english ]
 		#print(str(my_fields))
