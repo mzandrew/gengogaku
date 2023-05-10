@@ -37,7 +37,7 @@
 さんねんせい、third-year student / junior、、\ruby{}{}、lesson1、noun
 よんねんせい、fourth-year student、四年生、\ruby{四}{よん}\ruby{年}{ねん}\ruby{生}{せい}、lesson1、noun
 がくせい、student、、\ruby{}{}、lesson1、noun
-だいがくいんせい、graduate student、、\ruby{}{}、lesson1、noun
+#だいがくいんせい、graduate student、、\ruby{}{}、lesson1、noun
 だいがく、university、、\ruby{}{}、lesson1、noun
 だいがくせい、university student、、\ruby{}{}、lesson1、noun
 せんこう、academic major、、\ruby{}{}、lesson1、noun
@@ -159,8 +159,8 @@
 いち、1、一、\ruby{一}{いち}、lesson3、kanji-base/number
 に、2、二、\ruby{二}{に}、lesson3、kanji-base/number
 さん、3、三、\ruby{三}{さん}、lesson3、kanji-base/number
-し、４、四、\ruby{四}{し}、lesson3、kanji-base/number
-よん、４、四、\ruby{四}{よん}、lesson3、kanji-base/number
+し、4、四、\ruby{四}{し}、lesson3、kanji-base/number
+よん、4、四、\ruby{四}{よん}、lesson3、kanji-base/number
 ご、5、五、\ruby{五}{ご}、lesson3、kanji-base/number
 ろく、6、六、\ruby{六}{ろく}、lesson3、kanji-base/number
 しち、7、七、\ruby{七}{しち}、lesson3、kanji-base/number
@@ -571,7 +571,7 @@
 そんなに〜ない、not that ＿、、\ruby{}{}、lesson7、adverb
 #ぜんぜん〜ない、not at all、、\ruby{}{}、lesson7/duplicate、adverb
 はじめて、for the first time、、\ruby{}{}、lesson7、adverb
-よく、often、、\ruby{}{}、lesson7、adverb
+よく、often、、\ruby{}{}、lesson7/lesson8、adverb
 いつも、always、、\ruby{}{}、lesson7、adverb
 たいてい、usually、、\ruby{}{}、lesson7、adverb
 たまに、occasionally、、\ruby{}{}、lesson7、adverb
@@ -673,7 +673,7 @@
 
 たぶん、probably、、\ruby{多}{た}\ruby{分}{ぶん}、lesson8.1、adverb
 すこし、a little bit、少し、\ruby{少}{すこ}し、lesson8.3、adverb
-#よく、often / frequently、、\ruby{}{}、lesson8.3、adverb
+#よく、often / frequently、、\ruby{}{}、lesson7/lesson8.3/duplicate、adverb
 はやく、early / quickly、早く、\ruby{早}{はや}く、lesson8.4、adverb
 
 わすれる、to forget、忘れる、\ruby{忘}{わす}れる、lesson8.1、verb-II/kanji-compound
